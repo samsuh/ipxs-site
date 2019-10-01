@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static\\development\\pages\\pin.js.2937d5078d7d17059007.hot-update.js","sources":["webpack:///./pages/pin.js"],"sourcesContent":["const Pin = () => (<div>Pinning Site</div>);\r\n\r\nexport default Pin;"],"mappings":";;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AACA;AACA;;;;A","sourceRoot":""}
