@@ -5,11 +5,10 @@ const Roadmap = () => (
     <Layout>
 	<Head>
         <link href="../static/timeline.css" rel="stylesheet" />
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css' />
     </Head>
     <div class="container">
         <h1>IPXS Roadmap</h1>
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css' />
-		
 		<ul class="timeline">
 			<li>
 				<div class="direction-r">

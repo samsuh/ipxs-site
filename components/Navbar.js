@@ -16,7 +16,7 @@ const Navbar = () => (
                 <a class="nav-link" href="/pin">Pin</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/wp">Whitepaper</a>
+                <a class="nav-link" href="#">Whitepaper</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/roadmap">Roadmap</a>

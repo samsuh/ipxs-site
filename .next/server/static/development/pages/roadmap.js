@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -242,15 +242,14 @@ const Layout = props => __jsx("div", {
   __self: undefined
 }, "IPXS Storage Protocol"), __jsx("link", {
   rel: "stylesheet",
-  href: "https://bootswatch.com/4/yeti/bootstrap.min.css",
+  href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
   },
   __self: undefined
 }), __jsx("script", {
-  src: "https://kit.fontawesome.com/fa25a79c49.js",
-  crossorigin: "anonymous",
+  src: "https://use.fontawesome.com/f028f373ec.js",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
@@ -395,7 +394,7 @@ const Navbar = () => __jsx("nav", {
   __self: undefined
 }, __jsx("a", {
   class: "nav-link",
-  href: "/wp",
+  href: "#",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 19
@@ -2174,273 +2173,273 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
     lineNumber: 7
   },
   __self: undefined
-})), __jsx("div", {
-  class: "container",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}, __jsx("h1", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, "IPXS Roadmap"), __jsx("link", {
+}), __jsx("link", {
   href: "https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic",
   rel: "stylesheet",
   type: "text/css",
   __source: {
     fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+})), __jsx("div", {
+  class: "container",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, __jsx("h1", {
+  __source: {
+    fileName: _jsxFileName,
     lineNumber: 11
   },
   __self: undefined
-}), __jsx("ul", {
+}, "IPXS Roadmap"), __jsx("ul", {
   class: "timeline",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, __jsx("li", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
-}, __jsx("li", {
+}, __jsx("div", {
+  class: "direction-r",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14
   },
   __self: undefined
 }, __jsx("div", {
-  class: "direction-r",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}, __jsx("div", {
   class: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 15
   },
   __self: undefined
 }, __jsx("span", {
   class: "flag",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 16
   },
   __self: undefined
 }, "Beta In Progress"), __jsx("span", {
   class: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 17
   },
   __self: undefined
 }, __jsx("span", {
   class: "time",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 17
   },
   __self: undefined
 }, "2018 - present"))), __jsx("div", {
   class: "desc",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 19
   },
   __self: undefined
 }, "Core Storage Protocol Built!"))), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, __jsx("div", {
+  class: "direction-l",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 23
   },
   __self: undefined
 }, __jsx("div", {
-  class: "direction-l",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 24
-  },
-  __self: undefined
-}, __jsx("div", {
   class: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 24
   },
   __self: undefined
 }, __jsx("span", {
   class: "flag",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 25
   },
   __self: undefined
 }, "Beta Launch"), __jsx("span", {
   class: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27
+    lineNumber: 26
   },
   __self: undefined
 }, __jsx("span", {
   class: "time",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27
+    lineNumber: 26
   },
   __self: undefined
 }, "By the end of 2019"))), __jsx("div", {
   class: "desc",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
+    lineNumber: 28
   },
   __self: undefined
 }, "Beta will have blah blah features."))), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, __jsx("div", {
+  class: "direction-r",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 32
   },
   __self: undefined
 }, __jsx("div", {
-  class: "direction-r",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 33
-  },
-  __self: undefined
-}, __jsx("div", {
   class: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
+    lineNumber: 33
   },
   __self: undefined
 }, __jsx("span", {
   class: "flag",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 34
   },
   __self: undefined
 }, "Mainnet Launch"), __jsx("span", {
   class: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 35
   },
   __self: undefined
 }, __jsx("span", {
   class: "time",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 35
   },
   __self: undefined
 }, "Q1 2020"))), __jsx("div", {
   class: "desc",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 37
   },
   __self: undefined
 }, "Mainnet will have blahblah features."))), __jsx("li", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 40
   },
   __self: undefined
 }, __jsx("div", {
   class: "direction-l",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 42
+    lineNumber: 41
   },
   __self: undefined
 }, __jsx("div", {
   class: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 43
+    lineNumber: 42
   },
   __self: undefined
 }, __jsx("span", {
   class: "flag",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 44
+    lineNumber: 43
   },
   __self: undefined
 }, "Milestone 4"), __jsx("span", {
   class: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 45
+    lineNumber: 44
   },
   __self: undefined
 }, __jsx("span", {
   class: "time",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 45
+    lineNumber: 44
   },
   __self: undefined
 }, "QX 2020"))), __jsx("div", {
   class: "desc",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 47
+    lineNumber: 46
   },
   __self: undefined
 }, "Description goes here."))), __jsx("li", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 50
+    lineNumber: 49
   },
   __self: undefined
 }, __jsx("div", {
   class: "direction-r",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 51
+    lineNumber: 50
   },
   __self: undefined
 }, __jsx("div", {
   class: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 52
+    lineNumber: 51
   },
   __self: undefined
 }, __jsx("span", {
   class: "flag",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 53
+    lineNumber: 52
   },
   __self: undefined
 }, "Milestone 5"), __jsx("span", {
   class: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 54
+    lineNumber: 53
   },
   __self: undefined
 }, __jsx("span", {
   class: "time",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 54
+    lineNumber: 53
   },
   __self: undefined
 }, "QX 2020"))), __jsx("div", {
   class: "desc",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 56
+    lineNumber: 55
   },
   __self: undefined
 }, "Final Deliverable and Continued blahblah."))))));
@@ -2449,7 +2448,7 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!********************************!*\
   !*** multi ./pages/roadmap.js ***!
   \********************************/

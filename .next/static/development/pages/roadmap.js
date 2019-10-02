@@ -152,15 +152,14 @@ var Layout = function Layout(props) {
     __self: this
   }, "IPXS Storage Protocol"), __jsx("link", {
     rel: "stylesheet",
-    href: "https://bootswatch.com/4/yeti/bootstrap.min.css",
+    href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }), __jsx("script", {
-    src: "https://kit.fontawesome.com/fa25a79c49.js",
-    crossorigin: "anonymous",
+    src: "https://use.fontawesome.com/f028f373ec.js",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -307,7 +306,7 @@ var Navbar = function Navbar() {
     __self: this
   }, __jsx("a", {
     "class": "nav-link",
-    href: "/wp",
+    href: "#",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
@@ -11072,273 +11071,273 @@ var Roadmap = function Roadmap() {
       lineNumber: 7
     },
     __self: this
-  })), __jsx("div", {
-    "class": "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "IPXS Roadmap"), __jsx("link", {
+  }), __jsx("link", {
     href: "https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic",
     rel: "stylesheet",
     type: "text/css",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  })), __jsx("div", {
+    "class": "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }), __jsx("ul", {
+  }, "IPXS Roadmap"), __jsx("ul", {
     "class": "timeline",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, __jsx("li", {
+  }, __jsx("div", {
+    "class": "direction-r",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
   }, __jsx("div", {
-    "class": "direction-r",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx("div", {
     "class": "flag-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 15
     },
     __self: this
   }, __jsx("span", {
     "class": "flag",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }, "Beta In Progress"), __jsx("span", {
     "class": "time-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }, __jsx("span", {
     "class": "time",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }, "2018 - present"))), __jsx("div", {
     "class": "desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }, "Core Storage Protocol Built!"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx("div", {
+    "class": "direction-l",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
   }, __jsx("div", {
-    "class": "direction-l",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, __jsx("div", {
     "class": "flag-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: this
   }, __jsx("span", {
     "class": "flag",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 25
     },
     __self: this
   }, "Beta Launch"), __jsx("span", {
     "class": "time-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   }, __jsx("span", {
     "class": "time",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   }, "By the end of 2019"))), __jsx("div", {
     "class": "desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 28
     },
     __self: this
   }, "Beta will have blah blah features."))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, __jsx("div", {
+    "class": "direction-r",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     },
     __self: this
   }, __jsx("div", {
-    "class": "direction-r",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, __jsx("div", {
     "class": "flag-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 33
     },
     __self: this
   }, __jsx("span", {
     "class": "flag",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 34
     },
     __self: this
   }, "Mainnet Launch"), __jsx("span", {
     "class": "time-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 35
     },
     __self: this
   }, __jsx("span", {
     "class": "time",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 35
     },
     __self: this
   }, "Q1 2020"))), __jsx("div", {
     "class": "desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 37
     },
     __self: this
   }, "Mainnet will have blahblah features."))), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 40
     },
     __self: this
   }, __jsx("div", {
     "class": "direction-l",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 41
     },
     __self: this
   }, __jsx("div", {
     "class": "flag-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 42
     },
     __self: this
   }, __jsx("span", {
     "class": "flag",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 43
     },
     __self: this
   }, "Milestone 4"), __jsx("span", {
     "class": "time-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 44
     },
     __self: this
   }, __jsx("span", {
     "class": "time",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 44
     },
     __self: this
   }, "QX 2020"))), __jsx("div", {
     "class": "desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 46
     },
     __self: this
   }, "Description goes here."))), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 49
     },
     __self: this
   }, __jsx("div", {
     "class": "direction-r",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 50
     },
     __self: this
   }, __jsx("div", {
     "class": "flag-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 51
     },
     __self: this
   }, __jsx("span", {
     "class": "flag",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 52
     },
     __self: this
   }, "Milestone 5"), __jsx("span", {
     "class": "time-wrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 53
     },
     __self: this
   }, __jsx("span", {
     "class": "time",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 53
     },
     __self: this
   }, "QX 2020"))), __jsx("div", {
     "class": "desc",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 55
     },
     __self: this
   }, "Final Deliverable and Continued blahblah."))))));
@@ -11348,7 +11347,7 @@ var Roadmap = function Roadmap() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Croadmap.js ***!
   \**********************************************************************************************************************************************/
@@ -11371,5 +11370,5 @@ module.exports = dll_40e5610532f3b6b970d9;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=roadmap.js.map
