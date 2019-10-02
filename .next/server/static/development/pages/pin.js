@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2278,10 +2278,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/pin.js":
+/*!**********************!*\
+  !*** ./pages/pin.js ***!
+  \**********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2290,190 +2290,636 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\pages\\pin.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+const Pin = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
   },
   __self: undefined
-}, __jsx("div", {
-  className: "jumbotron card card-image bg-transparent",
+}, __jsx("section", {
+  className: "my-5",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
-}, __jsx("div", {
-  className: "text-center py-5 px-4",
+}, __jsx("h2", {
+  className: "h1-responsive font-weight-bold text-center my-5",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
-}, __jsx("div", {
+}, "IPXS Pinning Service"), __jsx("p", {
+  className: "lead grey-text text-center w-responsive mx-auto mb-5",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
   },
   __self: undefined
-}, __jsx("h2", {
-  className: "card-title h1-responsive pt-3 mb-5 font-bold",
+}, " Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."), __jsx("div", {
+  className: "row",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 8
   },
   __self: undefined
-}, __jsx("strong", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, "IPXS extends IPFS")), __jsx("h3", {
-  className: "mx-5 mb-5",
+}, __jsx("div", {
+  className: "col-lg-5 text-center text-lg-left",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
   },
   __self: undefined
-}, "Better Features, Speed and Scalability"), __jsx("p", {
-  className: "mx-5 mb-5",
+}, __jsx("img", {
+  className: "img-fluid",
+  src: "https://mdbootstrap.com/img/Photos/Others/screens-section.jpg",
+  alt: "Sample image",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
   },
   __self: undefined
-}, " Permissions using Access Controls, and blah for better speed and scalability"), __jsx("a", {
-  className: "btn btn-outline-dark btn-md btn-primary text-light",
+})), __jsx("div", {
+  className: "col-lg-7",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, __jsx("i", {
-  className: "fas fa-clone left",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}), " Read Whitepaper")))), __jsx("section", {
-  className: "text-center my-5",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 12
   },
   __self: undefined
 }, __jsx("div", {
-  className: "row",
+  className: "row mb-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-1",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "fas fa-share fa-lg indigo-text",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "col-xl-10 col-md-11 col-10",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 17
   },
   __self: undefined
-}, __jsx("div", {
-  className: "col-md-4",
+}, __jsx("h5", {
+  className: "font-weight-bold mb-3",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 18
   },
   __self: undefined
-}, __jsx("i", {
-  className: "fa fa-fingerprint fa-3x",
+}, "File Availability"), __jsx("p", {
+  className: "grey-text",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 19
   },
   __self: undefined
-}), __jsx("h5", {
-  className: "font-weight-bold my-4",
+}, "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."))), __jsx("div", {
+  className: "row mb-3",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 22
   },
   __self: undefined
-}, "File Permissions"), __jsx("p", {
-  className: "grey-text mb-md-0 mb-5",
+}, __jsx("div", {
+  className: "col-1",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
-  },
-  __self: undefined
-}, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.")), __jsx("div", {
-  className: "col-md-4",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("i", {
-  className: "fa fa-book fa-3x",
+  className: "fas fa-share fa-lg indigo-text",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "col-xl-10 col-md-11 col-10",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 26
   },
   __self: undefined
-}), __jsx("h5", {
-  className: "font-weight-bold my-4",
+}, __jsx("h5", {
+  className: "font-weight-bold mb-3",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 27
   },
   __self: undefined
-}, "Tutorials"), __jsx("p", {
-  className: "grey-text mb-md-0 mb-5",
+}, "Easy Maintenance"), __jsx("p", {
+  className: "grey-text",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 28
   },
   __self: undefined
-}, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.")), __jsx("div", {
-  className: "col-md-4",
+}, "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."))), __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-1",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 32
   },
   __self: undefined
 }, __jsx("i", {
-  className: "fa fa-comments fa-3x",
+  className: "fas fa-share fa-lg indigo-text",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 33
   },
   __self: undefined
-}), __jsx("h5", {
-  className: "font-weight-bold my-4",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 34
-  },
-  __self: undefined
-}, "Support"), __jsx("p", {
-  className: "grey-text mb-0",
+})), __jsx("div", {
+  className: "col-xl-10 col-md-11 col-10",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 35
   },
   __self: undefined
-}, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.")))));
+}, __jsx("h5", {
+  className: "font-weight-bold mb-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
+  },
+  __self: undefined
+}, "Reduce Costs by 80%"), __jsx("p", {
+  className: "grey-text",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.")))))), __jsx("section", {
+  className: "text-center my-5",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43
+  },
+  __self: undefined
+}, __jsx("h2", {
+  className: "h1-responsive font-weight-bold text-center my-5",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44
+  },
+  __self: undefined
+}, "Our pricing plans"), __jsx("p", {
+  className: "text-center w-responsive mx-auto mb-5",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45
+  },
+  __self: undefined
+}, "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah."), __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 46
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-lg-4 col-md-12 mb-lg-0 mb-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 47
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "pricing-card card",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 48
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "card-body",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 49
+  },
+  __self: undefined
+}, __jsx("h5", {
+  className: "font-weight-bold mt-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 50
+  },
+  __self: undefined
+}, "Free Tier"), __jsx("div", {
+  className: "price pt-0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 51
+  },
+  __self: undefined
+}, __jsx("h2", {
+  className: "number red-text mb-0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 52
+  },
+  __self: undefined
+}, "$0")), __jsx("ul", {
+  className: "striped mb-1",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 54
+  },
+  __self: undefined
+}, __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 55
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 56
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 56
+  },
+  __self: undefined
+}, "1"), " project")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 58
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 59
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 59
+  },
+  __self: undefined
+}, "100"), " components")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 61
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 62
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 62
+  },
+  __self: undefined
+}, "150"), " features")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 64
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 65
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 65
+  },
+  __self: undefined
+}, "200"), " members"))), __jsx("button", {
+  type: "button",
+  className: "btn btn-primary text-light btn-rounded mb-4",
+  "data-toggle": "modal",
+  "data-target": "#myModal",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 68
+  },
+  __self: undefined
+}, "Join Beta Waitlist")))), __jsx("div", {
+  className: "col-lg-4 col-md-6 mb-md-0 mb-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 72
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "card card-image",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 73
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "pricing-card card",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 74
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "card-body",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 75
+  },
+  __self: undefined
+}, __jsx("h5", {
+  className: "font-weight-bold mt-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 76
+  },
+  __self: undefined
+}, "Pro"), __jsx("div", {
+  className: "price pt-0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 77
+  },
+  __self: undefined
+}, __jsx("h2", {
+  className: "number red-text mb-0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 78
+  },
+  __self: undefined
+}, "$0.05")), __jsx("ul", {
+  className: "striped mb-1",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 80
+  },
+  __self: undefined
+}, __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 81
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 82
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 82
+  },
+  __self: undefined
+}, "1"), " projects")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 84
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 85
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 85
+  },
+  __self: undefined
+}, "200"), " components")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 87
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 88
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 88
+  },
+  __self: undefined
+}, "200"), " features")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 90
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 91
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 91
+  },
+  __self: undefined
+}, "300"), " members"))), __jsx("button", {
+  type: "button",
+  className: "btn btn-info btn-rounded text-light mb-4",
+  "data-toggle": "modal",
+  "data-target": "#myModal",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 94
+  },
+  __self: undefined
+}, "Advanced Notice"))))), __jsx("div", {
+  className: "col-lg-4 col-md-6",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 100
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "pricing-card card",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 101
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "card-body",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 102
+  },
+  __self: undefined
+}, __jsx("h5", {
+  className: "font-weight-bold mt-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 103
+  },
+  __self: undefined
+}, "Enterprise"), __jsx("div", {
+  className: "price pt-0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 104
+  },
+  __self: undefined
+}, __jsx("h2", {
+  className: "number red-text mb-0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 105
+  },
+  __self: undefined
+}, "30")), __jsx("ul", {
+  className: "striped mb-1",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 107
+  },
+  __self: undefined
+}, __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 108
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 109
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 109
+  },
+  __self: undefined
+}, "5"), " projects")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 111
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 112
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 112
+  },
+  __self: undefined
+}, "300"), " components")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 114
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 115
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 115
+  },
+  __self: undefined
+}, "350"), " features")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 117
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 118
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 118
+  },
+  __self: undefined
+}, "400"), " members"))), __jsx("button", {
+  type: "button",
+  className: "btn btn-success btn-rounded text-light mb-4",
+  "data-toggle": "modal",
+  "data-target": "#myModal",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 121
+  },
+  __self: undefined
+}, "Contact Us")))))));
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (Pin);
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 5:
+/*!****************************!*\
+  !*** multi ./pages/pin.js ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Samuel Suh\Desktop\ipxs-site\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Samuel Suh\Desktop\ipxs-site\pages\pin.js */"./pages/pin.js");
 
 
 /***/ }),
@@ -2622,4 +3068,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=pin.js.map
