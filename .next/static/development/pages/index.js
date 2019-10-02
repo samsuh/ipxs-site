@@ -153,35 +153,194 @@ var Layout = function Layout(props) {
   }, "IPXS Storage Protocol"), __jsx("link", {
     rel: "stylesheet",
     href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
+    integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
+    crossorigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }), __jsx("script", {
-    src: "https://use.fontawesome.com/f028f373ec.js",
+    src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+    integrity: "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo",
+    crossorigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  })), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), __jsx("script", {
+    src: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
+    integrity: "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM",
+    crossorigin: "anonymous",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), __jsx("script", {
+    src: "https://use.fontawesome.com/f028f373ec.js",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
+    },
+    __self: this
+  })), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
     },
     __self: this
   }), __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 15
     },
     __self: this
-  }, props.children), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, props.children), __jsx("div", {
+    className: "modal fade",
+    id: "myModal",
+    role: "dialog",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "modal-dialog  modal-dialog-centered ",
+    role: "document",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "modal-content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, __jsx("button", {
+    type: "button",
+    className: "close light",
+    "data-dismiss": "modal",
+    "aria-label": "Close",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, __jsx("span", {
+    "aria-hidden": "true",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "\xD7")), __jsx("div", {
+    className: "m-h-30 bg-img rounded-top ",
+    style: {
+      backgroundImage: "url(" + "https://images.unsplash.com/photo-1543363136-3fdb62e11be5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" + ")"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "modal-body",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("form", {
+    className: "px-sm-4 py-sm-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "Be Alerted When Beta Goes Live!"), __jsx("div", {
+    className: "form-group",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, __jsx("label", {
+    "for": "exampleInputtext1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, "Name"), __jsx("input", {
+    type: "text",
+    className: "form-control",
+    id: "exampleInputtext1",
+    "aria-describedby": "textHelp",
+    placeholder: "First Last",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "form-group",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx("label", {
+    "for": "exampleInputEmail1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "Email address"), __jsx("input", {
+    type: "email",
+    className: "form-control",
+    id: "exampleInputEmail1",
+    "aria-describedby": "emailHelp",
+    placeholder: "Email",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }), __jsx("small", {
+    id: "emailHelp",
+    className: "form-text text-muted",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "We'll never share your email with anyone else.")), __jsx("button", {
+    type: "submit",
+    className: "btn btn-danger btn-cta btn-block",
+    "data-dismiss": "modal",
+    "aria-label": "Close",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, "Subscribe")))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
     },
     __self: this
   }));
@@ -327,31 +486,17 @@ var Navbar = function Navbar() {
       lineNumber: 22
     },
     __self: this
-  }, "Roadmap"))), __jsx("form", {
-    "class": "form-inline my-2 my-lg-0",
+  }, "Roadmap"))), __jsx("button", {
+    "class": "btn btn-danger my-2 my-sm-0",
+    type: "button",
+    "data-toggle": "modal",
+    "data-target": "#myModal",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, __jsx("input", {
-    "class": "form-control mr-sm-2",
-    type: "text",
-    placeholder: "email to stay updated",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }), __jsx("button", {
-    "class": "btn btn-secondary my-2 my-sm-0",
-    type: "submit",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, "Stay Updated"))));
+  }, "Join Beta Waitlist")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
@@ -11055,14 +11200,14 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx("div", {
-    "class": "jumbotron card card-image bg-transparent",
+    className: "jumbotron card card-image bg-transparent",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
   }, __jsx("div", {
-    "class": "text-center py-5 px-4",
+    className: "text-center py-5 px-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -11075,7 +11220,7 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx("h2", {
-    "class": "card-title h1-responsive pt-3 mb-5 font-bold",
+    className: "card-title h1-responsive pt-3 mb-5 font-bold",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -11088,126 +11233,126 @@ var Index = function Index() {
     },
     __self: this
   }, "IPXS extends IPFS")), __jsx("h3", {
-    "class": "mx-5 mb-5",
+    className: "mx-5 mb-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
   }, "Better Features, Speed and Scalability"), __jsx("p", {
-    "class": "mx-5 mb-5",
+    className: "mx-5 mb-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, " Permissions using Access Controls, and blah for better speed and scalability"), __jsx("a", {
-    "class": "btn btn-outline-dark btn-md btn-primary text-light",
+    className: "btn btn-outline-dark btn-md btn-primary text-light",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }, __jsx("i", {
-    "class": "fas fa-clone left",
+    className: "fas fa-clone left",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }), " Read Whitepaper")))), __jsx("section", {
-    "class": "text-center my-5",
+    className: "text-center my-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
   }, __jsx("div", {
-    "class": "row",
+    className: "row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
   }, __jsx("div", {
-    "class": "col-md-4",
+    className: "col-md-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
   }, __jsx("i", {
-    "class": "fa fa-fingerprint fa-3x",
+    className: "fa fa-fingerprint fa-3x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
   }), __jsx("h5", {
-    "class": "font-weight-bold my-4",
+    className: "font-weight-bold my-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
   }, "File Permissions"), __jsx("p", {
-    "class": "grey-text mb-md-0 mb-5",
+    className: "grey-text mb-md-0 mb-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
   }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.")), __jsx("div", {
-    "class": "col-md-4",
+    className: "col-md-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
   }, __jsx("i", {
-    "class": "fa fa-book fa-3x",
+    className: "fa fa-book fa-3x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
   }), __jsx("h5", {
-    "class": "font-weight-bold my-4",
+    className: "font-weight-bold my-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
   }, "Tutorials"), __jsx("p", {
-    "class": "grey-text mb-md-0 mb-5",
+    className: "grey-text mb-md-0 mb-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
   }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.")), __jsx("div", {
-    "class": "col-md-4",
+    className: "col-md-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     },
     __self: this
   }, __jsx("i", {
-    "class": "fa fa-comments fa-3x",
+    className: "fa fa-comments fa-3x",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
     },
     __self: this
   }), __jsx("h5", {
-    "class": "font-weight-bold my-4",
+    className: "font-weight-bold my-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
   }, "Support"), __jsx("p", {
-    "class": "grey-text mb-0",
+    className: "grey-text mb-0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
@@ -11220,7 +11365,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Cindex.js ***!
   \*************************************************************************************************************************************/
@@ -11243,5 +11388,5 @@ module.exports = dll_40e5610532f3b6b970d9;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

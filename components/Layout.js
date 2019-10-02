@@ -6,13 +6,51 @@ const Layout = (props) => (
     <div>
         <Head>
             <title>IPXS Storage Protocol</title>
-            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
             <script src="https://use.fontawesome.com/f028f373ec.js"></script>
         </Head>
         <Navbar/>
         <div className="container">
             {props.children}
         </div>
+        <div className="modal fade" id="myModal" role="dialog">
+  <div className="modal-dialog  modal-dialog-centered " role="document">
+            <div className="modal-content">
+                <button type="button" className="close light" data-dismiss="modal"
+                        aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div className="m-h-30 bg-img rounded-top " style={{
+  backgroundImage: "url(" + "https://images.unsplash.com/photo-1543363136-3fdb62e11be5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" + ")"}}>
+
+                </div>
+                <div className="modal-body">
+                    <form className="px-sm-4 py-sm-4">
+                        <h3>Be Alerted When Beta Goes Live!</h3>
+                        <div className="form-group">
+
+                            <label for="exampleInputtext1">Name</label>
+                            <input type="text" className="form-control" id="exampleInputtext1" aria-describedby="textHelp" placeholder="First Last"/>
+                        </div>
+
+                        <div className="form-group">
+
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
+                            <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+
+                        <button type="submit" className="btn btn-danger btn-cta btn-block" data-dismiss="modal" aria-label="Close">Subscribe</button>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
         <Footer/>
         
     </div>

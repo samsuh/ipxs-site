@@ -22,10 +22,7 @@ const Navbar = () => (
                 <a class="nav-link" href="/roadmap">Roadmap</a>
             </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="email to stay updated" />
-                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Stay Updated</button>
-            </form>
+                <button class="btn btn-danger my-2 my-sm-0" type="button" data-toggle="modal" data-target="#myModal">Join Beta Waitlist</button>
         </div>
     </nav>
 );

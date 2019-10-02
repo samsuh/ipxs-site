@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -243,35 +243,194 @@ const Layout = props => __jsx("div", {
 }, "IPXS Storage Protocol"), __jsx("link", {
   rel: "stylesheet",
   href: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css",
+  integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T",
+  crossorigin: "anonymous",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
   },
   __self: undefined
 }), __jsx("script", {
-  src: "https://use.fontawesome.com/f028f373ec.js",
+  src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+  integrity: "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo",
+  crossorigin: "anonymous",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
   },
   __self: undefined
-})), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}), __jsx("script", {
+  src: "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
+  integrity: "sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM",
+  crossorigin: "anonymous",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}), __jsx("script", {
+  src: "https://use.fontawesome.com/f028f373ec.js",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
+  },
+  __self: undefined
+})), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
   },
   __self: undefined
 }), __jsx("div", {
   className: "container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 15
   },
   __self: undefined
-}, props.children), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+}, props.children), __jsx("div", {
+  className: "modal fade",
+  id: "myModal",
+  role: "dialog",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 18
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "modal-dialog  modal-dialog-centered ",
+  role: "document",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "modal-content",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, __jsx("button", {
+  type: "button",
+  className: "close light",
+  "data-dismiss": "modal",
+  "aria-label": "Close",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("span", {
+  "aria-hidden": "true",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, "\xD7")), __jsx("div", {
+  className: "m-h-30 bg-img rounded-top ",
+  style: {
+    backgroundImage: "url(" + "https://images.unsplash.com/photo-1543363136-3fdb62e11be5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" + ")"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "modal-body",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, __jsx("form", {
+  className: "px-sm-4 py-sm-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32
+  },
+  __self: undefined
+}, "Be Alerted When Beta Goes Live!"), __jsx("div", {
+  className: "form-group",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
+}, __jsx("label", {
+  for: "exampleInputtext1",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35
+  },
+  __self: undefined
+}, "Name"), __jsx("input", {
+  type: "text",
+  className: "form-control",
+  id: "exampleInputtext1",
+  "aria-describedby": "textHelp",
+  placeholder: "First Last",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "form-group",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39
+  },
+  __self: undefined
+}, __jsx("label", {
+  for: "exampleInputEmail1",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41
+  },
+  __self: undefined
+}, "Email address"), __jsx("input", {
+  type: "email",
+  className: "form-control",
+  id: "exampleInputEmail1",
+  "aria-describedby": "emailHelp",
+  placeholder: "Email",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 42
+  },
+  __self: undefined
+}), __jsx("small", {
+  id: "emailHelp",
+  className: "form-text text-muted",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43
+  },
+  __self: undefined
+}, "We'll never share your email with anyone else.")), __jsx("button", {
+  type: "submit",
+  className: "btn btn-danger btn-cta btn-block",
+  "data-dismiss": "modal",
+  "aria-label": "Close",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 46
+  },
+  __self: undefined
+}, "Subscribe")))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 54
   },
   __self: undefined
 }));
@@ -415,31 +574,17 @@ const Navbar = () => __jsx("nav", {
     lineNumber: 22
   },
   __self: undefined
-}, "Roadmap"))), __jsx("form", {
-  class: "form-inline my-2 my-lg-0",
+}, "Roadmap"))), __jsx("button", {
+  class: "btn btn-danger my-2 my-sm-0",
+  type: "button",
+  "data-toggle": "modal",
+  "data-target": "#myModal",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
   },
   __self: undefined
-}, __jsx("input", {
-  class: "form-control mr-sm-2",
-  type: "text",
-  placeholder: "email to stay updated",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 26
-  },
-  __self: undefined
-}), __jsx("button", {
-  class: "btn btn-secondary my-2 my-sm-0",
-  type: "submit",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 27
-  },
-  __self: undefined
-}, "Stay Updated"))));
+}, "Join Beta Waitlist")));
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
@@ -2173,273 +2318,264 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
     lineNumber: 7
   },
   __self: undefined
-}), __jsx("link", {
-  href: "https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic",
-  rel: "stylesheet",
-  type: "text/css",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
 })), __jsx("div", {
   class: "container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 9
   },
   __self: undefined
 }, __jsx("h1", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 10
   },
   __self: undefined
 }, "IPXS Roadmap"), __jsx("ul", {
   class: "timeline",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 11
   },
   __self: undefined
 }, __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, __jsx("div", {
+  class: "direction-r",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
 }, __jsx("div", {
-  class: "direction-r",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 14
-  },
-  __self: undefined
-}, __jsx("div", {
   class: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 14
   },
   __self: undefined
 }, __jsx("span", {
   class: "flag",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 15
   },
   __self: undefined
 }, "Beta In Progress"), __jsx("span", {
   class: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 16
   },
   __self: undefined
 }, __jsx("span", {
   class: "time",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 16
   },
   __self: undefined
 }, "2018 - present"))), __jsx("div", {
   class: "desc",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 18
   },
   __self: undefined
 }, "Core Storage Protocol Built!"))), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("div", {
+  class: "direction-l",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 22
   },
   __self: undefined
 }, __jsx("div", {
-  class: "direction-l",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 23
-  },
-  __self: undefined
-}, __jsx("div", {
   class: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("span", {
   class: "flag",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 24
   },
   __self: undefined
 }, "Beta Launch"), __jsx("span", {
   class: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 25
   },
   __self: undefined
 }, __jsx("span", {
   class: "time",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 25
   },
   __self: undefined
 }, "By the end of 2019"))), __jsx("div", {
   class: "desc",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28
+    lineNumber: 27
   },
   __self: undefined
 }, "Beta will have blah blah features."))), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, __jsx("div", {
+  class: "direction-r",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 31
   },
   __self: undefined
 }, __jsx("div", {
-  class: "direction-r",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 32
-  },
-  __self: undefined
-}, __jsx("div", {
   class: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33
+    lineNumber: 32
   },
   __self: undefined
 }, __jsx("span", {
   class: "flag",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
+    lineNumber: 33
   },
   __self: undefined
 }, "Mainnet Launch"), __jsx("span", {
   class: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 34
   },
   __self: undefined
 }, __jsx("span", {
   class: "time",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 34
   },
   __self: undefined
 }, "Q1 2020"))), __jsx("div", {
   class: "desc",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 36
   },
   __self: undefined
 }, "Mainnet will have blahblah features."))), __jsx("li", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 40
+    lineNumber: 39
   },
   __self: undefined
 }, __jsx("div", {
   class: "direction-l",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 40
   },
   __self: undefined
 }, __jsx("div", {
   class: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 42
+    lineNumber: 41
   },
   __self: undefined
 }, __jsx("span", {
   class: "flag",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 43
+    lineNumber: 42
   },
   __self: undefined
 }, "Milestone 4"), __jsx("span", {
   class: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 44
+    lineNumber: 43
   },
   __self: undefined
 }, __jsx("span", {
   class: "time",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 44
+    lineNumber: 43
   },
   __self: undefined
 }, "QX 2020"))), __jsx("div", {
   class: "desc",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 46
+    lineNumber: 45
   },
   __self: undefined
 }, "Description goes here."))), __jsx("li", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 49
+    lineNumber: 48
   },
   __self: undefined
 }, __jsx("div", {
   class: "direction-r",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 50
+    lineNumber: 49
   },
   __self: undefined
 }, __jsx("div", {
   class: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 51
+    lineNumber: 50
   },
   __self: undefined
 }, __jsx("span", {
   class: "flag",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 52
+    lineNumber: 51
   },
   __self: undefined
 }, "Milestone 5"), __jsx("span", {
   class: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 53
+    lineNumber: 52
   },
   __self: undefined
 }, __jsx("span", {
   class: "time",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 53
+    lineNumber: 52
   },
   __self: undefined
 }, "QX 2020"))), __jsx("div", {
   class: "desc",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 55
+    lineNumber: 54
   },
   __self: undefined
 }, "Final Deliverable and Continued blahblah."))))));
@@ -2448,7 +2584,7 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!********************************!*\
   !*** multi ./pages/roadmap.js ***!
   \********************************/
