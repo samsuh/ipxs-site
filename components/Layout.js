@@ -29,17 +29,17 @@ const Layout = (props) => (
                 </div>
                 <div className="modal-body">
                     <form className="px-sm-4 py-sm-4">
-                        <h3>Be Alerted When Beta Goes Live!</h3>
+                        <h4>Be Notified When IPXS Beta Goes Live!</h4>
                         <div className="form-group">
 
-                            <label for="exampleInputtext1">Name</label>
-                            <input type="text" className="form-control" id="exampleInputtext1" aria-describedby="textHelp" placeholder="First Last"/>
+                            <label for="subscribeName">Name</label>
+                            <input type="text" className="form-control" id="subscribeName" aria-describedby="textHelp" placeholder="Full Name"/>
                         </div>
 
                         <div className="form-group">
 
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email"/>
+                            <label for="subscribeEmail">Email address</label>
+                            <input type="email" className="form-control" id="subscribeEmail" aria-describedby="emailHelp" placeholder="Email"/>
                             <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
 
