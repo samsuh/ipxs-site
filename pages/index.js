@@ -56,14 +56,14 @@ const Index = () => (
                 </div>
                 <div className="col-md-4">
                 <i className="fa fa-book fa-3x"></i>
-                <h5 className="font-weight-bold my-4">Tutorials</h5>
+                <h5 className="font-weight-bold my-4">Decentalize Easily</h5>
                 <p className="grey-text mb-md-0 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
                     maiores aperiam minima assumenda deleniti hic.
                 </p>
                 </div>
                 <div className="col-md-4">
                 <i className="fa fa-comments fa-3x"></i>
-                <h5 className="font-weight-bold my-4">Support</h5>
+                <h5 className="font-weight-bold my-4">Expert Support</h5>
                 <p className="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
                     aperiam minima assumenda deleniti hic.
                 </p>
