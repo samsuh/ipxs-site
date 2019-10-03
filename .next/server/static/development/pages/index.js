@@ -299,13 +299,13 @@ const Layout = props => __jsx("div", {
     lineNumber: 31
   },
   __self: undefined
-}, __jsx("h3", {
+}, __jsx("h4", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 32
   },
   __self: undefined
-}, "Be Alerted When Beta Goes Live!"), __jsx("div", {
+}, "Be Notified When IPXS Beta Goes Live!"), __jsx("div", {
   className: "form-group",
   __source: {
     fileName: _jsxFileName,
@@ -313,7 +313,7 @@ const Layout = props => __jsx("div", {
   },
   __self: undefined
 }, __jsx("label", {
-  for: "exampleInputtext1",
+  for: "subscribeName",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 35
@@ -322,9 +322,9 @@ const Layout = props => __jsx("div", {
 }, "Name"), __jsx("input", {
   type: "text",
   className: "form-control",
-  id: "exampleInputtext1",
+  id: "subscribeName",
   "aria-describedby": "textHelp",
-  placeholder: "First Last",
+  placeholder: "Full Name",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 36
@@ -338,7 +338,7 @@ const Layout = props => __jsx("div", {
   },
   __self: undefined
 }, __jsx("label", {
-  for: "exampleInputEmail1",
+  for: "subscribeEmail",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 41
@@ -347,7 +347,7 @@ const Layout = props => __jsx("div", {
 }, "Email address"), __jsx("input", {
   type: "email",
   className: "form-control",
-  id: "exampleInputEmail1",
+  id: "subscribeEmail",
   "aria-describedby": "emailHelp",
   placeholder: "Email",
   __source: {
@@ -2248,24 +2248,24 @@ const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["defau
   },
   __self: undefined
 }, __jsx("div", {
-  className: "container-fluid d-flex justify-content-center p-2",
+  className: "justify-content-center",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
 }, __jsx("div", {
-  className: "row",
+  className: "row py-2 px-4",
+  style: {
+    backgroundImage: "url(" + "../static/images/forest.jpg" + ")"
+  },
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
 }, __jsx("div", {
-  className: "col-md-8 col-lg-9 text-center py-5 px-4 bg-transparent",
-  style: {
-    backgroundImage: "url(" + "../static/images/forest.jpg" + ")"
-  },
+  className: "col-md-7 col-lg-9 text-center py-5 bg-transparent",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
@@ -2278,7 +2278,7 @@ const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["defau
   },
   __self: undefined
 }, __jsx("h2", {
-  className: "card-fluid card-title h1-responsive pt-3 mb-5 font-bold",
+  className: "card-fluid card-title h1-responsive py-3 mb-5 font-bold",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
@@ -2319,7 +2319,7 @@ const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["defau
   },
   __self: undefined
 }), " Read Whitepaper"))), __jsx("div", {
-  className: "col-md-4 col-lg-3 card-fluid card p-2",
+  className: "col-md-5 col-lg-3 card-fluid card my-2",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
@@ -2547,7 +2547,7 @@ const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["defau
     lineNumber: 59
   },
   __self: undefined
-}, "Tutorials"), __jsx("p", {
+}, "Decentalize Easily"), __jsx("p", {
   className: "grey-text mb-md-0 mb-5",
   __source: {
     fileName: _jsxFileName,
@@ -2575,7 +2575,7 @@ const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["defau
     lineNumber: 66
   },
   __self: undefined
-}, "Support"), __jsx("p", {
+}, "Expert Support"), __jsx("p", {
   className: "grey-text mb-0",
   __source: {
     fileName: _jsxFileName,

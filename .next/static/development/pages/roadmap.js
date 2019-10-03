@@ -209,13 +209,13 @@ var Layout = function Layout(props) {
       lineNumber: 31
     },
     __self: this
-  }, __jsx("h3", {
+  }, __jsx("h4", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     },
     __self: this
-  }, "Be Alerted When Beta Goes Live!"), __jsx("div", {
+  }, "Be Notified When IPXS Beta Goes Live!"), __jsx("div", {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
@@ -223,7 +223,7 @@ var Layout = function Layout(props) {
     },
     __self: this
   }, __jsx("label", {
-    "for": "exampleInputtext1",
+    "for": "subscribeName",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
@@ -232,9 +232,9 @@ var Layout = function Layout(props) {
   }, "Name"), __jsx("input", {
     type: "text",
     className: "form-control",
-    id: "exampleInputtext1",
+    id: "subscribeName",
     "aria-describedby": "textHelp",
-    placeholder: "First Last",
+    placeholder: "Full Name",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
@@ -248,7 +248,7 @@ var Layout = function Layout(props) {
     },
     __self: this
   }, __jsx("label", {
-    "for": "exampleInputEmail1",
+    "for": "subscribeEmail",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
@@ -257,7 +257,7 @@ var Layout = function Layout(props) {
   }, "Email address"), __jsx("input", {
     type: "email",
     className: "form-control",
-    id: "exampleInputEmail1",
+    id: "subscribeEmail",
     "aria-describedby": "emailHelp",
     placeholder: "Email",
     __source: {
@@ -11429,7 +11429,7 @@ var Roadmap = function Roadmap() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Croadmap.js ***!
   \*****************************************************************************************************************************************************/
@@ -11452,5 +11452,5 @@ module.exports = dll_6b5a3ee2368b61971f52;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=roadmap.js.map

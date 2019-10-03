@@ -2,17 +2,17 @@ import Layout from '../components/Layout';
 
 const Index = () => (
     <Layout>
-    <div className="container-fluid d-flex justify-content-center p-2">
-        <div className="row">
-            <div className="col-md-8 col-lg-9 text-center py-5 px-4 bg-transparent" style={{backgroundImage: "url("+"../static/images/forest.jpg" + ")"}}>
+    <div className="justify-content-center">
+        <div className="row py-2 px-4" style={{backgroundImage: "url("+"../static/images/forest.jpg" + ")"}}>
+            <div className="col-md-7 col-lg-9 text-center py-5 bg-transparent">
                 <div>
-                    <h2 className="card-fluid card-title h1-responsive pt-3 mb-5 font-bold"><strong>Is Your Dapp Still Using AWS?</strong></h2>
+                    <h2 className="card-fluid card-title h1-responsive py-3 mb-5 font-bold"><strong>Is Your Dapp Still Using AWS?</strong></h2>
                     <h4 className="mx-5 mb-5">Decentralized Storage. Less Effort.</h4>
                     <p className="mx-5 mb-5"> Permissions using Access Controls, and blah for better speed and scalability</p>
                     <a className="btn btn-outline-dark btn-md btn-info text-light"><i className="fas fa-clone left"></i> Read Whitepaper</a>
                 </div>
             </div>
-            <div className="col-md-4 col-lg-3 card-fluid card p-2">
+            <div className="col-md-5 col-lg-3 card-fluid card my-2">
                 <div className="card-body">
                     <form>
                         <p className="h4 text-center py-4">Decentralize Now</p>

@@ -299,13 +299,13 @@ const Layout = props => __jsx("div", {
     lineNumber: 31
   },
   __self: undefined
-}, __jsx("h3", {
+}, __jsx("h4", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 32
   },
   __self: undefined
-}, "Be Alerted When Beta Goes Live!"), __jsx("div", {
+}, "Be Notified When IPXS Beta Goes Live!"), __jsx("div", {
   className: "form-group",
   __source: {
     fileName: _jsxFileName,
@@ -313,7 +313,7 @@ const Layout = props => __jsx("div", {
   },
   __self: undefined
 }, __jsx("label", {
-  for: "exampleInputtext1",
+  for: "subscribeName",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 35
@@ -322,9 +322,9 @@ const Layout = props => __jsx("div", {
 }, "Name"), __jsx("input", {
   type: "text",
   className: "form-control",
-  id: "exampleInputtext1",
+  id: "subscribeName",
   "aria-describedby": "textHelp",
-  placeholder: "First Last",
+  placeholder: "Full Name",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 36
@@ -338,7 +338,7 @@ const Layout = props => __jsx("div", {
   },
   __self: undefined
 }, __jsx("label", {
-  for: "exampleInputEmail1",
+  for: "subscribeEmail",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 41
@@ -347,7 +347,7 @@ const Layout = props => __jsx("div", {
 }, "Email address"), __jsx("input", {
   type: "email",
   className: "form-control",
-  id: "exampleInputEmail1",
+  id: "subscribeEmail",
   "aria-describedby": "emailHelp",
   placeholder: "Email",
   __source: {
