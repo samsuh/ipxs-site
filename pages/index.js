@@ -2,16 +2,48 @@ import Layout from '../components/Layout';
 
 const Index = () => (
     <Layout>
-<div className="jumbotron card card-image bg-transparent">
-  <div className="text-center py-5 px-4">
-    <div>
-      <h2 className="card-title h1-responsive pt-3 mb-5 font-bold"><strong>IPXS extends IPFS</strong></h2>
-      <h3 className="mx-5 mb-5">Better Features, Speed and Scalability</h3>
-      <p className="mx-5 mb-5"> Permissions using Access Controls, and blah for better speed and scalability</p>
-      <a className="btn btn-outline-dark btn-md btn-primary text-light"><i className="fas fa-clone left"></i> Read Whitepaper</a>
+    <div className="container-fluid d-flex justify-content-center p-2">
+        <div className="row">
+            <div className="col-md-8 col-lg-9 text-center py-5 px-4 bg-transparent" style={{backgroundImage: "url("+"../static/images/forest.jpg" + ")"}}>
+                <div>
+                    <h2 className="card-fluid card-title h1-responsive pt-3 mb-5 font-bold"><strong>Is Your Dapp Still Using AWS?</strong></h2>
+                    <h4 className="mx-5 mb-5">Decentralized Storage. Less Effort.</h4>
+                    <p className="mx-5 mb-5"> Permissions using Access Controls, and blah for better speed and scalability</p>
+                    <a className="btn btn-outline-dark btn-md btn-info text-light"><i className="fas fa-clone left"></i> Read Whitepaper</a>
+                </div>
+            </div>
+            <div className="col-md-4 col-lg-3 card-fluid card p-2">
+                <div className="card-body">
+                    <form>
+                        <p className="h4 text-center py-4">Decentralize Now</p>
+                        <div className="md-form">
+                            <i className="fa fa-user prefix grey-text"></i>
+                            <input type="text" id="fullName" className="form-control"/>
+                            <label for="fullName" className="font-weight-light">Your name</label>
+                        </div>
+                        <div className="md-form">
+                            <i className="fa fa-user prefix grey-text"></i>
+                            <input type="text" id="companyName" className="form-control"/>
+                            <label for="companyName" className="font-weight-light">Company</label>
+                        </div>
+                        <div className="md-form">
+                            <i className="fa fa-user prefix grey-text"></i>
+                            <input type="text" id="companyRole" className="form-control"/>
+                            <label for="companyRole" className="font-weight-light">Role at Company</label>
+                        </div>
+                        <div className="md-form">
+                            <i className="fa fa-envelope prefix grey-text"></i>
+                            <input type="email" id="materialFormCardEmailEx" className="form-control"/>
+                            <label for="materialFormCardEmailEx" className="font-weight-light">Your email</label>
+                        </div>
+                        <div className="text-center py-4 mt-3">
+                            <button className="btn btn-primary" type="submit">Contact Specialist</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
         <section className="text-center my-5">
             <div className="row">
