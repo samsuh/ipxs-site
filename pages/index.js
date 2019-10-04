@@ -1,10 +1,11 @@
 import Layout from '../components/Layout';
 
 const Index = () => (
+    <div style={{backgroundImage: "url("+"https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" + ")"}}>
     <Layout>
-    <div className="justify-content-center">
-        <div className="row py-2 px-4" style={{backgroundImage: "url("+"../static/images/forest.jpg" + ")"}}>
-            <div className="col-md-7 col-lg-9 text-center py-5 bg-transparent">
+    <div className="justify-content-center pb-5">
+        <div className="row py-2 px-4">
+            <div className="col-md-7 col-lg-9 text-center py-5 bg-transparent text-light">
                 <div>
                     <h2 className="card-fluid card-title h1-responsive py-3 mb-5 font-bold"><strong>Is Your Dapp Still Using AWS?</strong></h2>
                     <h4 className="mx-5 mb-5">Decentralized Storage. Less Effort.</h4>
@@ -45,7 +46,7 @@ const Index = () => (
         </div>
     </div>
 
-        <section className="text-center my-5">
+        <section className="text-center my-5 text-light">
             <div className="row">
                 <div className="col-md-4">
                 <i className="fa fa-fingerprint fa-3x"></i>
@@ -71,6 +72,7 @@ const Index = () => (
             </div>
         </section>
     </Layout>
+    </div>
 );
 
 export default Index;

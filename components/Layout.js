@@ -17,19 +17,15 @@ const Layout = (props) => (
         </div>
         <div className="modal fade" id="myModal" role="dialog">
   <div className="modal-dialog  modal-dialog-centered " role="document">
-            <div className="modal-content">
-                <button type="button" className="close light" data-dismiss="modal"
+            <div className="modal-content" style={{
+  backgroundImage: "url("+"https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80"+ ")"}}>
+                <button type="button" className="close text-light text-right" data-dismiss="modal"
                         aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-
-                <div className="m-h-30 bg-img rounded-top " style={{
-  backgroundImage: "url(" + "https://images.unsplash.com/photo-1543363136-3fdb62e11be5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" + ")"}}>
-
-                </div>
                 <div className="modal-body">
-                    <form className="px-sm-4 py-sm-4">
-                        <h4>Be Notified When IPXS Beta Goes Live!</h4>
+                    <form className="px-sm-4 py-sm-4 text-light text-center">
+                        <h4>Be Notified When </h4><h4>IPXS Beta Goes Live!</h4>
                         <div className="form-group">
 
                             <label for="subscribeName">Name</label>
