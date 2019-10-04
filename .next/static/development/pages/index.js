@@ -11132,6 +11132,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Index = function Index() {
   return __jsx("div", {
+    className: "",
     style: {
       backgroundImage: "url(" + "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" + ")"
     },
@@ -11202,6 +11203,7 @@ var Index = function Index() {
     __self: this
   }, " Permissions using Access Controls, and blah for better speed and scalability"), __jsx("a", {
     className: "btn btn-outline-dark btn-md btn-info text-light",
+    href: "../static/whitepaperTest.pdf",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -11485,7 +11487,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Cindex.js ***!
   \*************************************************************************************************************************************/
@@ -11508,5 +11510,5 @@ module.exports = dll_40e5610532f3b6b970d9;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

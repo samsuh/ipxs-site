@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2234,6 +2234,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Index = () => __jsx("div", {
+  className: "",
   style: {
     backgroundImage: "url(" + "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" + ")"
   },
@@ -2304,6 +2305,7 @@ const Index = () => __jsx("div", {
   __self: undefined
 }, " Permissions using Access Controls, and blah for better speed and scalability"), __jsx("a", {
   className: "btn btn-outline-dark btn-md btn-info text-light",
+  href: "../static/whitepaperTest.pdf",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
@@ -2586,7 +2588,7 @@ const Index = () => __jsx("div", {
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
