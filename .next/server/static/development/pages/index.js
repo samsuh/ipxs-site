@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -112,7 +112,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Footer = () => __jsx("footer", {
-  class: "page-footer font-small text-center bg-light pt-4 static-bottom",
+  class: "page-footer font-small text-center bg-light static-bottom",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
@@ -2249,7 +2249,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("div", {
-  className: "justify-content-center pb-5",
+  className: "justify-content-center",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
@@ -2586,7 +2586,7 @@ const Index = () => __jsx("div", {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

@@ -49,9 +49,9 @@ const Pin = () => (
                 <div className="card-body">
                 <h5 className="font-weight-bold mt-3">Free Tier</h5>
                 <div className="price pt-0">
-                    <h2 className="number red-text mb-0">$0</h2>
+                    <h2 className="number mb-2">$0</h2>
                 </div>
-                <ul className="striped mb-1">
+                <ul className="mb-1" style={{ listStyleType: "none" }}>
                     <li>
                     <p><strong>1</strong> project</p>
                     </li>
@@ -75,9 +75,9 @@ const Pin = () => (
                         <div className="card-body">
                         <h5 className="font-weight-bold mt-3">Pro</h5>
                         <div className="price pt-0">
-                            <h2 className="number red-text mb-0">$0.05</h2>
+                            <h2 className="number mb-2">$0.05</h2>
                         </div>
-                        <ul className="striped mb-1">
+                        <ul className="mb-1" style={{ listStyleType: "none" }}>
                             <li>
                             <p><strong>1</strong> projects</p>
                             </li>
@@ -102,9 +102,9 @@ const Pin = () => (
                     <div className="card-body">
                     <h5 className="font-weight-bold mt-3">Enterprise</h5>
                     <div className="price pt-0">
-                        <h2 className="number red-text mb-0">30</h2>
+                        <h2 className="number red-text mb-2">30</h2>
                     </div>
-                    <ul className="striped mb-1">
+                    <ul className="mb-1" style={{ listStyleType: "none" }}>
                         <li>
                         <p><strong>5</strong> projects</p>
                         </li>

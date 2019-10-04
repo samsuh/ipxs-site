@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 const Index = () => (
     <div style={{backgroundImage: "url("+"https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" + ")"}}>
     <Layout>
-    <div className="justify-content-center pb-5">
+    <div className="justify-content-center">
         <div className="row py-2 px-4">
             <div className="col-md-7 col-lg-9 text-center py-5 bg-transparent text-light">
                 <div>

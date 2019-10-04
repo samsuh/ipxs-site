@@ -20,7 +20,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Footer = function Footer() {
   return __jsx("footer", {
-    "class": "page-footer font-small text-center bg-light pt-4 static-bottom",
+    "class": "page-footer font-small text-center bg-light static-bottom",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
@@ -11147,7 +11147,7 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx("div", {
-    className: "justify-content-center pb-5",
+    className: "justify-content-center",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -11485,7 +11485,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Cindex.js ***!
   \*************************************************************************************************************************************/
@@ -11508,5 +11508,5 @@ module.exports = dll_40e5610532f3b6b970d9;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
