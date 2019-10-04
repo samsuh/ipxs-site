@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Footer.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -63,7 +63,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -118,7 +118,8 @@ var Layout = function Layout(props) {
     },
     __self: this
   }), __jsx("script", {
-    src: "https://use.fontawesome.com/f028f373ec.js",
+    src: "https://kit.fontawesome.com/fa25a79c49.js",
+    crossorigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -218,7 +219,7 @@ var Layout = function Layout(props) {
     "for": "subscribeName",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
     },
     __self: this
   }, "Name"), __jsx("input", {
@@ -229,21 +230,21 @@ var Layout = function Layout(props) {
     placeholder: "Full Name",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 31
     },
     __self: this
   })), __jsx("div", {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 34
     },
     __self: this
   }, __jsx("label", {
     "for": "subscribeEmail",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 35
     },
     __self: this
   }, "Email address"), __jsx("input", {
@@ -254,7 +255,7 @@ var Layout = function Layout(props) {
     placeholder: "Email",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 36
     },
     __self: this
   }), __jsx("small", {
@@ -262,7 +263,7 @@ var Layout = function Layout(props) {
     className: "form-text text-muted",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 37
     },
     __self: this
   }, "We'll never share your email with anyone else.")), __jsx("button", {
@@ -272,13 +273,13 @@ var Layout = function Layout(props) {
     "aria-label": "Close",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 40
     },
     __self: this
   }, "Subscribe")))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 48
     },
     __self: this
   }));
@@ -301,7 +302,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Navbar.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Navbar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -5188,10 +5189,10 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Cindex.js!./":
-/*!*********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Cindex.js ***!
-  \*********************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Cindex.js!./":
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Cindex.js ***!
+  \****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7937,12 +7938,12 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_40e5610532f3b6b970d9 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_6b5a3ee2368b61971f52 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_40e5610532f3b6b970d9 */ "dll-reference dll_40e5610532f3b6b970d9"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_6b5a3ee2368b61971f52 */ "dll-reference dll_6b5a3ee2368b61971f52"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -8415,12 +8416,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_40e5610532f3b6b970d9 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_6b5a3ee2368b61971f52 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_40e5610532f3b6b970d9 */ "dll-reference dll_40e5610532f3b6b970d9"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_6b5a3ee2368b61971f52 */ "dll-reference dll_6b5a3ee2368b61971f52"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -9055,12 +9056,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_40e5610532f3b6b970d9 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_6b5a3ee2368b61971f52 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_40e5610532f3b6b970d9 */ "dll-reference dll_40e5610532f3b6b970d9"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_6b5a3ee2368b61971f52 */ "dll-reference dll_6b5a3ee2368b61971f52"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -9531,12 +9532,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_40e5610532f3b6b970d9 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_6b5a3ee2368b61971f52 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_40e5610532f3b6b970d9 */ "dll-reference dll_40e5610532f3b6b970d9"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_6b5a3ee2368b61971f52 */ "dll-reference dll_6b5a3ee2368b61971f52"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -11125,7 +11126,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -11217,7 +11218,10 @@ var Index = function Index() {
     },
     __self: this
   }), " Read Whitepaper"))), __jsx("div", {
-    className: "col-md-5 col-lg-3 card-fluid card my-2",
+    className: "col-md-5 col-lg-3 card-fluid card bg-light my-2",
+    style: {
+      opacity: .9
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -11250,17 +11254,17 @@ var Index = function Index() {
       lineNumber: 20
     },
     __self: this
-  }, __jsx("i", {
-    className: "fa fa-user prefix grey-text",
+  }, __jsx("input", {
+    type: "text",
+    id: "fullName",
+    className: "form-control",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
-  }), __jsx("input", {
-    type: "text",
-    id: "fullName",
-    className: "form-control",
+  }), __jsx("i", {
+    className: "fa fa-user prefix grey-text pr-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
@@ -11274,24 +11278,24 @@ var Index = function Index() {
       lineNumber: 23
     },
     __self: this
-  }, "Your name")), __jsx("div", {
+  }, " Your name")), __jsx("div", {
     className: "md-form",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, __jsx("i", {
-    className: "fa fa-user prefix grey-text",
+  }, __jsx("input", {
+    type: "text",
+    id: "companyName",
+    className: "form-control",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  }), __jsx("input", {
-    type: "text",
-    id: "companyName",
-    className: "form-control",
+  }), __jsx("i", {
+    className: "fas fa-building prefix grey-text pr-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
@@ -11305,24 +11309,24 @@ var Index = function Index() {
       lineNumber: 28
     },
     __self: this
-  }, "Company")), __jsx("div", {
+  }, " Company")), __jsx("div", {
     className: "md-form",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, __jsx("i", {
-    className: "fa fa-user prefix grey-text",
+  }, __jsx("input", {
+    type: "text",
+    id: "companyRole",
+    className: "form-control",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
-  }), __jsx("input", {
-    type: "text",
-    id: "companyRole",
-    className: "form-control",
+  }), __jsx("i", {
+    className: "fas fa-sitemap prefix grey-text pr-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
@@ -11336,24 +11340,24 @@ var Index = function Index() {
       lineNumber: 33
     },
     __self: this
-  }, "Role at Company")), __jsx("div", {
+  }, " Role at Company")), __jsx("div", {
     className: "md-form",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }, __jsx("i", {
-    className: "fa fa-envelope prefix grey-text",
+  }, __jsx("input", {
+    type: "email",
+    id: "materialFormCardEmailEx",
+    className: "form-control",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
-  }), __jsx("input", {
-    type: "email",
-    id: "materialFormCardEmailEx",
-    className: "form-control",
+  }), __jsx("i", {
+    className: "fa fa-envelope prefix grey-text pr-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
@@ -11367,8 +11371,8 @@ var Index = function Index() {
       lineNumber: 38
     },
     __self: this
-  }, "Your email")), __jsx("div", {
-    className: "text-center py-4 mt-3",
+  }, " Your email")), __jsx("div", {
+    className: "text-center pb-4 mt-3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
@@ -11382,105 +11386,15 @@ var Index = function Index() {
       lineNumber: 41
     },
     __self: this
-  }, "Contact Specialist"))))))), __jsx("section", {
-    className: "text-center my-5 text-light",
+  }, "Contact Specialist"), __jsx("small", {
+    id: "emailHelp",
+    className: "form-text text-muted",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 42
     },
     __self: this
-  }, __jsx("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "col-md-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, __jsx("i", {
-    className: "fa fa-fingerprint fa-3x",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }), __jsx("h5", {
-    className: "font-weight-bold my-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }, "File Permissions"), __jsx("p", {
-    className: "grey-text mb-md-0 mb-5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.")), __jsx("div", {
-    className: "col-md-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, __jsx("i", {
-    className: "fa fa-book fa-3x",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }), __jsx("h5", {
-    className: "font-weight-bold my-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, "Decentalize Easily"), __jsx("p", {
-    className: "grey-text mb-md-0 mb-5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.")), __jsx("div", {
-    className: "col-md-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, __jsx("i", {
-    className: "fa fa-comments fa-3x",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }), __jsx("h5", {
-    className: "font-weight-bold my-4",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, "Expert Support"), __jsx("p", {
-    className: "grey-text mb-0",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic."))))));
+  }, "We'll never share your email.")))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -11488,25 +11402,25 @@ var Index = function Index() {
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Cindex.js ***!
-  \*************************************************************************************************************************************/
+/*!********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Cindex.js ***!
+  \********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_40e5610532f3b6b970d9":
+/***/ "dll-reference dll_6b5a3ee2368b61971f52":
 /*!*******************************************!*\
-  !*** external "dll_40e5610532f3b6b970d9" ***!
+  !*** external "dll_6b5a3ee2368b61971f52" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_40e5610532f3b6b970d9;
+module.exports = dll_6b5a3ee2368b61971f52;
 
 /***/ })
 

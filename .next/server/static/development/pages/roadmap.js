@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Footer.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -154,7 +154,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -208,7 +208,8 @@ const Layout = props => __jsx("div", {
   },
   __self: undefined
 }), __jsx("script", {
-  src: "https://use.fontawesome.com/f028f373ec.js",
+  src: "https://kit.fontawesome.com/fa25a79c49.js",
+  crossorigin: "anonymous",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
@@ -308,7 +309,7 @@ const Layout = props => __jsx("div", {
   for: "subscribeName",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31
+    lineNumber: 30
   },
   __self: undefined
 }, "Name"), __jsx("input", {
@@ -319,21 +320,21 @@ const Layout = props => __jsx("div", {
   placeholder: "Full Name",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32
+    lineNumber: 31
   },
   __self: undefined
 })), __jsx("div", {
   className: "form-group",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 34
   },
   __self: undefined
 }, __jsx("label", {
   for: "subscribeEmail",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 35
   },
   __self: undefined
 }, "Email address"), __jsx("input", {
@@ -344,7 +345,7 @@ const Layout = props => __jsx("div", {
   placeholder: "Email",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 36
   },
   __self: undefined
 }), __jsx("small", {
@@ -352,7 +353,7 @@ const Layout = props => __jsx("div", {
   className: "form-text text-muted",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 39
+    lineNumber: 37
   },
   __self: undefined
 }, "We'll never share your email with anyone else.")), __jsx("button", {
@@ -362,13 +363,13 @@ const Layout = props => __jsx("div", {
   "aria-label": "Close",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 42
+    lineNumber: 40
   },
   __self: undefined
 }, "Subscribe")))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 50
+    lineNumber: 48
   },
   __self: undefined
 }));
@@ -390,7 +391,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Navbar.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Navbar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2230,7 +2231,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\pages\\roadmap.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\pages\\roadmap.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2522,14 +2523,14 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!********************************!*\
   !*** multi ./pages/roadmap.js ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Samuel Suh\Desktop\ipxs-site\pages\roadmap.js */"./pages/roadmap.js");
+module.exports = __webpack_require__(/*! C:\Users\Samuel Suh\Desktop\ipxs\ipxs-site\pages\roadmap.js */"./pages/roadmap.js");
 
 
 /***/ }),

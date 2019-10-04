@@ -13,64 +13,39 @@ const Index = () => (
                     <a className="btn btn-outline-dark btn-md btn-info text-light" href="../static/whitepaperTest.pdf"><i className="fas fa-clone left"></i> Read Whitepaper</a>
                 </div>
             </div>
-            <div className="col-md-5 col-lg-3 card-fluid card my-2">
+            <div className="col-md-5 col-lg-3 card-fluid card bg-light my-2" style={{opacity:.9}}>
                 <div className="card-body">
                     <form>
                         <p className="h4 text-center py-4">Decentralize Now</p>
                         <div className="md-form">
-                            <i className="fa fa-user prefix grey-text"></i>
                             <input type="text" id="fullName" className="form-control"/>
-                            <label for="fullName" className="font-weight-light">Your name</label>
+                            <i className="fa fa-user prefix grey-text pr-2"></i> 
+                            <label for="fullName" className="font-weight-light"> Your name</label>
                         </div>
                         <div className="md-form">
-                            <i className="fa fa-user prefix grey-text"></i>
                             <input type="text" id="companyName" className="form-control"/>
-                            <label for="companyName" className="font-weight-light">Company</label>
+                            <i className="fas fa-building prefix grey-text pr-2"></i>
+                            <label for="companyName" className="font-weight-light"> Company</label>
                         </div>
                         <div className="md-form">
-                            <i className="fa fa-user prefix grey-text"></i>
                             <input type="text" id="companyRole" className="form-control"/>
-                            <label for="companyRole" className="font-weight-light">Role at Company</label>
+                            <i className="fas fa-sitemap prefix grey-text pr-2"></i>
+                            <label for="companyRole" className="font-weight-light"> Role at Company</label>
                         </div>
                         <div className="md-form">
-                            <i className="fa fa-envelope prefix grey-text"></i>
                             <input type="email" id="materialFormCardEmailEx" className="form-control"/>
-                            <label for="materialFormCardEmailEx" className="font-weight-light">Your email</label>
+                            <i className="fa fa-envelope prefix grey-text pr-2"></i>
+                            <label for="materialFormCardEmailEx" className="font-weight-light"> Your email</label>
                         </div>
-                        <div className="text-center py-4 mt-3">
+                        <div className="text-center pb-4 mt-3">
                             <button className="btn btn-primary" type="submit">Contact Specialist</button>
+                            <small id="emailHelp" className="form-text text-muted">We'll never share your email.</small>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
-        <section className="text-center my-5 text-light">
-            <div className="row">
-                <div className="col-md-4">
-                <i className="fa fa-fingerprint fa-3x"></i>
-                <h5 className="font-weight-bold my-4">File Permissions</h5>
-                <p className="grey-text mb-md-0 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores aperiam minima assumenda deleniti hic.
-                </p>
-                </div>
-                <div className="col-md-4">
-                <i className="fa fa-book fa-3x"></i>
-                <h5 className="font-weight-bold my-4">Decentalize Easily</h5>
-                <p className="grey-text mb-md-0 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit
-                    maiores aperiam minima assumenda deleniti hic.
-                </p>
-                </div>
-                <div className="col-md-4">
-                <i className="fa fa-comments fa-3x"></i>
-                <h5 className="font-weight-bold my-4">Expert Support</h5>
-                <p className="grey-text mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores
-                    aperiam minima assumenda deleniti hic.
-                </p>
-                </div>
-            </div>
-        </section>
     </Layout>
     </div>
 );

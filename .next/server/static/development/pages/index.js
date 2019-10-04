@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Footer.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -154,7 +154,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -208,7 +208,8 @@ const Layout = props => __jsx("div", {
   },
   __self: undefined
 }), __jsx("script", {
-  src: "https://use.fontawesome.com/f028f373ec.js",
+  src: "https://kit.fontawesome.com/fa25a79c49.js",
+  crossorigin: "anonymous",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
@@ -308,7 +309,7 @@ const Layout = props => __jsx("div", {
   for: "subscribeName",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31
+    lineNumber: 30
   },
   __self: undefined
 }, "Name"), __jsx("input", {
@@ -319,21 +320,21 @@ const Layout = props => __jsx("div", {
   placeholder: "Full Name",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32
+    lineNumber: 31
   },
   __self: undefined
 })), __jsx("div", {
   className: "form-group",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 34
   },
   __self: undefined
 }, __jsx("label", {
   for: "subscribeEmail",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 35
   },
   __self: undefined
 }, "Email address"), __jsx("input", {
@@ -344,7 +345,7 @@ const Layout = props => __jsx("div", {
   placeholder: "Email",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 36
   },
   __self: undefined
 }), __jsx("small", {
@@ -352,7 +353,7 @@ const Layout = props => __jsx("div", {
   className: "form-text text-muted",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 39
+    lineNumber: 37
   },
   __self: undefined
 }, "We'll never share your email with anyone else.")), __jsx("button", {
@@ -362,13 +363,13 @@ const Layout = props => __jsx("div", {
   "aria-label": "Close",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 42
+    lineNumber: 40
   },
   __self: undefined
 }, "Subscribe")))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 50
+    lineNumber: 48
   },
   __self: undefined
 }));
@@ -390,7 +391,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Navbar.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Navbar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2228,7 +2229,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2319,7 +2320,10 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), " Read Whitepaper"))), __jsx("div", {
-  className: "col-md-5 col-lg-3 card-fluid card my-2",
+  className: "col-md-5 col-lg-3 card-fluid card bg-light my-2",
+  style: {
+    opacity: .9
+  },
   __source: {
     fileName: _jsxFileName,
     lineNumber: 16
@@ -2352,17 +2356,17 @@ const Index = () => __jsx("div", {
     lineNumber: 20
   },
   __self: undefined
-}, __jsx("i", {
-  className: "fa fa-user prefix grey-text",
+}, __jsx("input", {
+  type: "text",
+  id: "fullName",
+  className: "form-control",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 21
   },
   __self: undefined
-}), __jsx("input", {
-  type: "text",
-  id: "fullName",
-  className: "form-control",
+}), __jsx("i", {
+  className: "fa fa-user prefix grey-text pr-2",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 22
@@ -2376,24 +2380,24 @@ const Index = () => __jsx("div", {
     lineNumber: 23
   },
   __self: undefined
-}, "Your name")), __jsx("div", {
+}, " Your name")), __jsx("div", {
   className: "md-form",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
   },
   __self: undefined
-}, __jsx("i", {
-  className: "fa fa-user prefix grey-text",
+}, __jsx("input", {
+  type: "text",
+  id: "companyName",
+  className: "form-control",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 26
   },
   __self: undefined
-}), __jsx("input", {
-  type: "text",
-  id: "companyName",
-  className: "form-control",
+}), __jsx("i", {
+  className: "fas fa-building prefix grey-text pr-2",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 27
@@ -2407,24 +2411,24 @@ const Index = () => __jsx("div", {
     lineNumber: 28
   },
   __self: undefined
-}, "Company")), __jsx("div", {
+}, " Company")), __jsx("div", {
   className: "md-form",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 30
   },
   __self: undefined
-}, __jsx("i", {
-  className: "fa fa-user prefix grey-text",
+}, __jsx("input", {
+  type: "text",
+  id: "companyRole",
+  className: "form-control",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 31
   },
   __self: undefined
-}), __jsx("input", {
-  type: "text",
-  id: "companyRole",
-  className: "form-control",
+}), __jsx("i", {
+  className: "fas fa-sitemap prefix grey-text pr-2",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 32
@@ -2438,24 +2442,24 @@ const Index = () => __jsx("div", {
     lineNumber: 33
   },
   __self: undefined
-}, "Role at Company")), __jsx("div", {
+}, " Role at Company")), __jsx("div", {
   className: "md-form",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 35
   },
   __self: undefined
-}, __jsx("i", {
-  className: "fa fa-envelope prefix grey-text",
+}, __jsx("input", {
+  type: "email",
+  id: "materialFormCardEmailEx",
+  className: "form-control",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 36
   },
   __self: undefined
-}), __jsx("input", {
-  type: "email",
-  id: "materialFormCardEmailEx",
-  className: "form-control",
+}), __jsx("i", {
+  className: "fa fa-envelope prefix grey-text pr-2",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 37
@@ -2469,8 +2473,8 @@ const Index = () => __jsx("div", {
     lineNumber: 38
   },
   __self: undefined
-}, "Your email")), __jsx("div", {
-  className: "text-center py-4 mt-3",
+}, " Your email")), __jsx("div", {
+  className: "text-center pb-4 mt-3",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 40
@@ -2484,105 +2488,15 @@ const Index = () => __jsx("div", {
     lineNumber: 41
   },
   __self: undefined
-}, "Contact Specialist"))))))), __jsx("section", {
-  className: "text-center my-5 text-light",
+}, "Contact Specialist"), __jsx("small", {
+  id: "emailHelp",
+  className: "form-text text-muted",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 49
+    lineNumber: 42
   },
   __self: undefined
-}, __jsx("div", {
-  className: "row",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 50
-  },
-  __self: undefined
-}, __jsx("div", {
-  className: "col-md-4",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 51
-  },
-  __self: undefined
-}, __jsx("i", {
-  className: "fa fa-fingerprint fa-3x",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 52
-  },
-  __self: undefined
-}), __jsx("h5", {
-  className: "font-weight-bold my-4",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 53
-  },
-  __self: undefined
-}, "File Permissions"), __jsx("p", {
-  className: "grey-text mb-md-0 mb-5",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 54
-  },
-  __self: undefined
-}, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.")), __jsx("div", {
-  className: "col-md-4",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 58
-  },
-  __self: undefined
-}, __jsx("i", {
-  className: "fa fa-book fa-3x",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 59
-  },
-  __self: undefined
-}), __jsx("h5", {
-  className: "font-weight-bold my-4",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 60
-  },
-  __self: undefined
-}, "Decentalize Easily"), __jsx("p", {
-  className: "grey-text mb-md-0 mb-5",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 61
-  },
-  __self: undefined
-}, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.")), __jsx("div", {
-  className: "col-md-4",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 65
-  },
-  __self: undefined
-}, __jsx("i", {
-  className: "fa fa-comments fa-3x",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 66
-  },
-  __self: undefined
-}), __jsx("h5", {
-  className: "font-weight-bold my-4",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 67
-  },
-  __self: undefined
-}, "Expert Support"), __jsx("p", {
-  className: "grey-text mb-0",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 68
-  },
-  __self: undefined
-}, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic."))))));
+}, "We'll never share your email.")))))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -2595,7 +2509,7 @@ const Index = () => __jsx("div", {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Samuel Suh\Desktop\ipxs-site\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Samuel Suh\Desktop\ipxs\ipxs-site\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

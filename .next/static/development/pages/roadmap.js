@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Footer.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -63,7 +63,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -118,7 +118,8 @@ var Layout = function Layout(props) {
     },
     __self: this
   }), __jsx("script", {
-    src: "https://use.fontawesome.com/f028f373ec.js",
+    src: "https://kit.fontawesome.com/fa25a79c49.js",
+    crossorigin: "anonymous",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -218,7 +219,7 @@ var Layout = function Layout(props) {
     "for": "subscribeName",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
     },
     __self: this
   }, "Name"), __jsx("input", {
@@ -229,21 +230,21 @@ var Layout = function Layout(props) {
     placeholder: "Full Name",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 31
     },
     __self: this
   })), __jsx("div", {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 34
     },
     __self: this
   }, __jsx("label", {
     "for": "subscribeEmail",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 35
     },
     __self: this
   }, "Email address"), __jsx("input", {
@@ -254,7 +255,7 @@ var Layout = function Layout(props) {
     placeholder: "Email",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 36
     },
     __self: this
   }), __jsx("small", {
@@ -262,7 +263,7 @@ var Layout = function Layout(props) {
     className: "form-text text-muted",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 37
     },
     __self: this
   }, "We'll never share your email with anyone else.")), __jsx("button", {
@@ -272,13 +273,13 @@ var Layout = function Layout(props) {
     "aria-label": "Close",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 40
     },
     __self: this
   }, "Subscribe")))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 48
     },
     __self: this
   }));
@@ -301,7 +302,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Navbar.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Navbar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -5188,10 +5189,10 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Croadmap.js!./":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Croadmap.js ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Croadmap.js!./":
+/*!*************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Croadmap.js ***!
+  \*************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7937,12 +7938,12 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_40e5610532f3b6b970d9 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_6b5a3ee2368b61971f52 ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_40e5610532f3b6b970d9 */ "dll-reference dll_40e5610532f3b6b970d9"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_6b5a3ee2368b61971f52 */ "dll-reference dll_6b5a3ee2368b61971f52"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -8415,12 +8416,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_40e5610532f3b6b970d9 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_6b5a3ee2368b61971f52 ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_40e5610532f3b6b970d9 */ "dll-reference dll_40e5610532f3b6b970d9"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_6b5a3ee2368b61971f52 */ "dll-reference dll_6b5a3ee2368b61971f52"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -9055,12 +9056,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_40e5610532f3b6b970d9 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_6b5a3ee2368b61971f52 ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_40e5610532f3b6b970d9 */ "dll-reference dll_40e5610532f3b6b970d9"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_6b5a3ee2368b61971f52 */ "dll-reference dll_6b5a3ee2368b61971f52"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -9531,12 +9532,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_40e5610532f3b6b970d9 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_6b5a3ee2368b61971f52 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_40e5610532f3b6b970d9 */ "dll-reference dll_40e5610532f3b6b970d9"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_6b5a3ee2368b61971f52 */ "dll-reference dll_6b5a3ee2368b61971f52"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -11127,7 +11128,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\pages\\roadmap.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\pages\\roadmap.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -11421,28 +11422,28 @@ var Roadmap = function Roadmap() {
 
 /***/ }),
 
-/***/ 2:
-/*!**********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Croadmap.js ***!
-  \**********************************************************************************************************************************************/
+/***/ 1:
+/*!*****************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Croadmap.js ***!
+  \*****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Croadmap.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs-site%5Cpages%5Croadmap.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Croadmap.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Croadmap.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_40e5610532f3b6b970d9":
+/***/ "dll-reference dll_6b5a3ee2368b61971f52":
 /*!*******************************************!*\
-  !*** external "dll_40e5610532f3b6b970d9" ***!
+  !*** external "dll_6b5a3ee2368b61971f52" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_40e5610532f3b6b970d9;
+module.exports = dll_6b5a3ee2368b61971f52;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=roadmap.js.map
