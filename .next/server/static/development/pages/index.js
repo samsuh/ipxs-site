@@ -215,17 +215,17 @@ const Layout = props => __jsx("div", {
     lineNumber: 12
   },
   __self: undefined
-})), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}), "        "), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 13
   },
   __self: undefined
 }), __jsx("div", {
   className: "container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 14
   },
   __self: undefined
 }, props.children), __jsx("div", {
@@ -234,7 +234,7 @@ const Layout = props => __jsx("div", {
   role: "dialog",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 17
   },
   __self: undefined
 }, __jsx("div", {
@@ -242,7 +242,7 @@ const Layout = props => __jsx("div", {
   role: "document",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 18
   },
   __self: undefined
 }, __jsx("div", {
@@ -252,7 +252,7 @@ const Layout = props => __jsx("div", {
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 19
   },
   __self: undefined
 }, __jsx("button", {
@@ -262,54 +262,54 @@ const Layout = props => __jsx("div", {
   "aria-label": "Close",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 21
   },
   __self: undefined
 }, __jsx("span", {
   "aria-hidden": "true",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
+    lineNumber: 23
   },
   __self: undefined
 }, "\xD7")), __jsx("div", {
   className: "modal-body",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 25
   },
   __self: undefined
 }, __jsx("form", {
   className: "px-sm-4 py-sm-4 text-light text-center",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27
+    lineNumber: 26
   },
   __self: undefined
 }, __jsx("h4", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28
+    lineNumber: 27
   },
   __self: undefined
 }, "Be Notified When "), __jsx("h4", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28
+    lineNumber: 27
   },
   __self: undefined
 }, "IPXS Beta Goes Live!"), __jsx("div", {
   className: "form-group",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
+    lineNumber: 28
   },
   __self: undefined
 }, __jsx("label", {
   for: "subscribeName",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 30
+    lineNumber: 29
   },
   __self: undefined
 }, "Name"), __jsx("input", {
@@ -320,21 +320,21 @@ const Layout = props => __jsx("div", {
   placeholder: "Full Name",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31
+    lineNumber: 30
   },
   __self: undefined
 })), __jsx("div", {
   className: "form-group",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
+    lineNumber: 33
   },
   __self: undefined
 }, __jsx("label", {
   for: "subscribeEmail",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 34
   },
   __self: undefined
 }, "Email address"), __jsx("input", {
@@ -345,7 +345,7 @@ const Layout = props => __jsx("div", {
   placeholder: "Email",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 35
   },
   __self: undefined
 }), __jsx("small", {
@@ -353,7 +353,7 @@ const Layout = props => __jsx("div", {
   className: "form-text text-muted",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 36
   },
   __self: undefined
 }, "We'll never share your email with anyone else.")), __jsx("button", {
@@ -363,13 +363,13 @@ const Layout = props => __jsx("div", {
   "aria-label": "Close",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 40
+    lineNumber: 39
   },
   __self: undefined
 }, "Subscribe")))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 48
+    lineNumber: 47
   },
   __self: undefined
 }));
@@ -461,7 +461,14 @@ const Navbar = () => __jsx("nav", {
     lineNumber: 13
   },
   __self: undefined
-}, "Home ", __jsx("span", {
+}, " ", __jsx("i", {
+  class: "fas fa-home",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}), " ", __jsx("span", {
   class: "sr-only",
   __source: {
     fileName: _jsxFileName,
@@ -2235,7 +2242,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Index = () => __jsx("div", {
-  className: "",
   style: {
     backgroundImage: "url(" + "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" + ")"
   },
@@ -2366,7 +2372,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), __jsx("i", {
-  className: "fa fa-user prefix grey-text pr-2",
+  className: "fas fa-user prefix grey-text pr-2",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 22
@@ -2459,7 +2465,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), __jsx("i", {
-  className: "fa fa-envelope prefix grey-text pr-2",
+  className: "fas fa-envelope prefix grey-text pr-2",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 37

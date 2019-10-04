@@ -19,14 +19,6 @@
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/pin": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/roadmap": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }

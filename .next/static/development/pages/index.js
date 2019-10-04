@@ -125,17 +125,17 @@ var Layout = function Layout(props) {
       lineNumber: 12
     },
     __self: this
-  })), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), "        "), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }), __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }, props.children), __jsx("div", {
@@ -144,7 +144,7 @@ var Layout = function Layout(props) {
     role: "dialog",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }, __jsx("div", {
@@ -152,7 +152,7 @@ var Layout = function Layout(props) {
     role: "document",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }, __jsx("div", {
@@ -162,7 +162,7 @@ var Layout = function Layout(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }, __jsx("button", {
@@ -172,54 +172,54 @@ var Layout = function Layout(props) {
     "aria-label": "Close",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   }, __jsx("span", {
     "aria-hidden": "true",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
   }, "\xD7")), __jsx("div", {
     className: "modal-body",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 25
     },
     __self: this
   }, __jsx("form", {
     className: "px-sm-4 py-sm-4 text-light text-center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   }, __jsx("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: this
   }, "Be Notified When "), __jsx("h4", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: this
   }, "IPXS Beta Goes Live!"), __jsx("div", {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 28
     },
     __self: this
   }, __jsx("label", {
     "for": "subscribeName",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 29
     },
     __self: this
   }, "Name"), __jsx("input", {
@@ -230,21 +230,21 @@ var Layout = function Layout(props) {
     placeholder: "Full Name",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
     },
     __self: this
   })), __jsx("div", {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 33
     },
     __self: this
   }, __jsx("label", {
     "for": "subscribeEmail",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 34
     },
     __self: this
   }, "Email address"), __jsx("input", {
@@ -255,7 +255,7 @@ var Layout = function Layout(props) {
     placeholder: "Email",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 35
     },
     __self: this
   }), __jsx("small", {
@@ -263,7 +263,7 @@ var Layout = function Layout(props) {
     className: "form-text text-muted",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 36
     },
     __self: this
   }, "We'll never share your email with anyone else.")), __jsx("button", {
@@ -273,13 +273,13 @@ var Layout = function Layout(props) {
     "aria-label": "Close",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 39
     },
     __self: this
   }, "Subscribe")))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 47
     },
     __self: this
   }));
@@ -373,7 +373,14 @@ var Navbar = function Navbar() {
       lineNumber: 13
     },
     __self: this
-  }, "Home ", __jsx("span", {
+  }, " ", __jsx("i", {
+    "class": "fas fa-home",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), " ", __jsx("span", {
     "class": "sr-only",
     __source: {
       fileName: _jsxFileName,
@@ -11133,7 +11140,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Index = function Index() {
   return __jsx("div", {
-    className: "",
     style: {
       backgroundImage: "url(" + "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" + ")"
     },
@@ -11264,7 +11270,7 @@ var Index = function Index() {
     },
     __self: this
   }), __jsx("i", {
-    className: "fa fa-user prefix grey-text pr-2",
+    className: "fas fa-user prefix grey-text pr-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
@@ -11357,7 +11363,7 @@ var Index = function Index() {
     },
     __self: this
   }), __jsx("i", {
-    className: "fa fa-envelope prefix grey-text pr-2",
+    className: "fas fa-envelope prefix grey-text pr-2",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
