@@ -27,11 +27,11 @@ backgroundImage: "url("+"https://images.unsplash.com/photo-1456428746267-a175640
                     <form className="px-sm-4 py-sm-4 text-light text-center">
                         <h4>Be Notified When </h4><h4>IPXS Beta Goes Live!</h4>
                         <div className="form-group">
-                            <label for="subscribeName">Name</label>
+                            <label htmlFor="subscribeName">Name</label>
                             <input type="text" className="form-control" id="subscribeName" placeholder="Full Name"/>
                         </div>
                         <div className="form-group">
-                            <label for="subscribeEmail">Email address</label>
+                            <label htmlFor="subscribeEmail">Email address</label>
                             <input type="email" className="form-control" id="subscribeEmail" placeholder="Email"/>
                             <small id="emailHelp" className="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>

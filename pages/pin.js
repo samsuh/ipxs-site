@@ -12,7 +12,7 @@ const Pin = () => (
         <div className="col-lg-7">
         <div className="row mb-3">
             <div className="col-1">
-                <i class="material-icons mr-2 align-bottom">check</i>
+                <i className="material-icons mr-2 align-bottom">check</i>
             </div>
             <div className="col-xl-10 col-md-11 col-10">
             <h5 className="font-weight-bold mb-3">File Availability</h5>
@@ -21,7 +21,7 @@ const Pin = () => (
         </div>
         <div className="row mb-3">
             <div className="col-1">
-                <i class="material-icons mr-2 align-bottom">check</i>
+                <i className="material-icons mr-2 align-bottom">check</i>
             </div>
             <div className="col-xl-10 col-md-11 col-10">
             <h5 className="font-weight-bold mb-3">Easy Maintenance</h5>
@@ -30,7 +30,7 @@ const Pin = () => (
         </div>
         <div className="row">
             <div className="col-1">
-                <i class="material-icons mr-2 align-bottom">check</i>
+                <i className="material-icons mr-2 align-bottom">check</i>
             </div>
             <div className="col-xl-10 col-md-11 col-10">
             <h5 className="font-weight-bold mb-3">Reduce Costs by 80%</h5>
