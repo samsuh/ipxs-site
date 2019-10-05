@@ -28,7 +28,7 @@ const Index = () => (
                         <div className="md-form">
                             <input type="text" id="projectName" className="form-control"/>
                             <i class="material-icons mr-2 align-middle">business</i>
-                            <label className="font-weight-light"> Project</label>
+                            <label className="font-weight-light"> Your project</label>
                         </div>
                         <div className="md-form">
                             <input type="email" id="materialFormCardEmailEx" className="form-control"/>
