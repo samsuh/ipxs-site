@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Footer.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -154,7 +154,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Layout.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -208,9 +208,9 @@ const Layout = props => __jsx("div", {
     lineNumber: 11
   },
   __self: undefined
-}), __jsx("script", {
-  src: "https://kit.fontawesome.com/fa25a79c49.js",
-  crossOrigin: "anonymous",
+}), __jsx("link", {
+  href: "https://fonts.googleapis.com/icon?family=Material+Icons",
+  rel: "stylesheet",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
@@ -387,7 +387,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\components\\Navbar.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Navbar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -454,14 +454,14 @@ const Navbar = () => __jsx("nav", {
     lineNumber: 13
   },
   __self: undefined
-}, " ", __jsx("i", {
-  className: "fas fa-home",
+}, __jsx("i", {
+  class: "material-icons",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
-}), " ", __jsx("span", {
+}, "home"), __jsx("span", {
   className: "sr-only",
   __source: {
     fileName: _jsxFileName,
@@ -2219,7 +2219,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs\\ipxs-site\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\pages\\index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2294,39 +2294,39 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("i", {
-  className: "fas fa-check mr-2",
+  class: "material-icons mr-2 align-bottom",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
-}), "Permissioned Files"), __jsx("p", {
+}, "check"), "Permissioned Files"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
 }, __jsx("i", {
-  className: "fas fa-check mr-2",
+  class: "material-icons mr-2 align-bottom",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
-}), "Improved Speed"), __jsx("p", {
+}, "check"), "Improved Speed"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14
   },
   __self: undefined
 }, __jsx("i", {
-  className: "fas fa-check mr-2",
+  class: "material-icons mr-2 align-bottom",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14
   },
   __self: undefined
-}), "Improved Availability"), __jsx("p", {
+}, "check"), "Improved Availability"), __jsx("p", {
   className: "mb-5",
   __source: {
     fileName: _jsxFileName,
@@ -2334,13 +2334,13 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("i", {
-  className: "fas fa-check mr-2",
+  class: "material-icons mr-2 align-bottom",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
   },
   __self: undefined
-}), " ERC20 Token Incentives"), __jsx("a", {
+}, "check"), " ERC20 Token Incentives"), __jsx("a", {
   className: "btn btn-outline-dark btn-md btn-info text-light",
   href: "../static/whitepaperTest.pdf",
   __source: {
@@ -2386,7 +2386,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, "Decentralize Now"), __jsx("div", {
-  className: "md-form",
+  className: "md-form ",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 23
@@ -2402,13 +2402,13 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), __jsx("i", {
-  className: "fas fa-user prefix grey-text pr-2",
+  class: "material-icons mr-2 align-middle",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
   },
   __self: undefined
-}), __jsx("label", {
+}, "account_box"), __jsx("label", {
   className: "font-weight-light",
   __source: {
     fileName: _jsxFileName,
@@ -2432,13 +2432,13 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), __jsx("i", {
-  className: "fas fa-building prefix grey-text pr-2",
+  class: "material-icons mr-2 align-middle",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 30
   },
   __self: undefined
-}), __jsx("label", {
+}, "business"), __jsx("label", {
   className: "font-weight-light",
   __source: {
     fileName: _jsxFileName,
@@ -2462,13 +2462,13 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), __jsx("i", {
-  className: "fas fa-envelope prefix grey-text pr-2",
+  class: "material-icons mr-2 align-middle",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 35
   },
   __self: undefined
-}), __jsx("label", {
+}, "email"), __jsx("label", {
   className: "font-weight-light",
   __source: {
     fileName: _jsxFileName,
@@ -2504,14 +2504,14 @@ const Index = () => __jsx("div", {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Samuel Suh\Desktop\ipxs\ipxs-site\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Samuel Suh\Desktop\ipxs-site\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
