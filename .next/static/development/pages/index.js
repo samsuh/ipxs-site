@@ -20,21 +20,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Footer = function Footer() {
   return __jsx("footer", {
-    "class": "page-footer font-small text-center bg-light static-bottom",
+    className: "page-footer font-small text-center bg-light static-bottom",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
   }, __jsx("div", {
-    "class": "footer-copyright text-center py-3 bg-dark text-light",
+    className: "footer-copyright text-center py-3 bg-dark text-light",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
   }, "\xA9", __jsx("a", {
-    "class": "text-light",
+    className: "text-light",
     href: "https://www.ipxs.io",
     __source: {
       fileName: _jsxFileName,
@@ -125,17 +125,17 @@ var Layout = function Layout(props) {
       lineNumber: 12
     },
     __self: this
-  }), "        "), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  })), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }), __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, props.children), __jsx("div", {
@@ -144,7 +144,7 @@ var Layout = function Layout(props) {
     role: "dialog",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }, __jsx("div", {
@@ -152,7 +152,7 @@ var Layout = function Layout(props) {
     role: "document",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }, __jsx("div", {
@@ -162,21 +162,19 @@ var Layout = function Layout(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, __jsx("button", {
     type: "button",
-    className: "close text-light text-right",
+    className: "close text-light text-right px-4 py-2",
     "data-dismiss": "modal",
-    "aria-label": "Close",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }, __jsx("span", {
-    "aria-hidden": "true",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
@@ -226,7 +224,6 @@ var Layout = function Layout(props) {
     type: "text",
     className: "form-control",
     id: "subscribeName",
-    "aria-describedby": "textHelp",
     placeholder: "Full Name",
     __source: {
       fileName: _jsxFileName,
@@ -237,25 +234,24 @@ var Layout = function Layout(props) {
     className: "form-group",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 32
     },
     __self: this
   }, __jsx("label", {
     "for": "subscribeEmail",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 33
     },
     __self: this
   }, "Email address"), __jsx("input", {
     type: "email",
     className: "form-control",
     id: "subscribeEmail",
-    "aria-describedby": "emailHelp",
     placeholder: "Email",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 34
     },
     __self: this
   }), __jsx("small", {
@@ -263,23 +259,22 @@ var Layout = function Layout(props) {
     className: "form-text text-muted",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 35
     },
     __self: this
   }, "We'll never share your email with anyone else.")), __jsx("button", {
     type: "submit",
     className: "btn btn-danger btn-cta btn-block",
     "data-dismiss": "modal",
-    "aria-label": "Close",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 37
     },
     __self: this
   }, "Subscribe")))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 43
     },
     __self: this
   }));
@@ -309,14 +304,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Navbar = function Navbar() {
   return __jsx("nav", {
-    "class": "navbar navbar-expand-lg navbar-dark bg-dark sticky-top",
+    className: "navbar navbar-expand-lg navbar-dark bg-dark sticky-top",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
   }, __jsx("a", {
-    "class": "navbar-brand",
+    className: "navbar-brand",
     href: "/",
     __source: {
       fileName: _jsxFileName,
@@ -324,27 +319,24 @@ var Navbar = function Navbar() {
     },
     __self: this
   }, "IPXS"), __jsx("button", {
-    "class": "navbar-toggler",
+    className: "navbar-toggler",
     type: "button",
     "data-toggle": "collapse",
     "data-target": "#navbarColor02",
-    "aria-controls": "navbarColor02",
-    "aria-expanded": "false",
-    "aria-label": "Toggle navigation",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }, __jsx("span", {
-    "class": "navbar-toggler-icon",
+    className: "navbar-toggler-icon",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
   })), __jsx("div", {
-    "class": "collapse navbar-collapse",
+    className: "collapse navbar-collapse",
     id: "navbarColor02",
     __source: {
       fileName: _jsxFileName,
@@ -352,21 +344,21 @@ var Navbar = function Navbar() {
     },
     __self: this
   }, __jsx("ul", {
-    "class": "navbar-nav mr-auto",
+    className: "navbar-nav ml-auto pr-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
   }, __jsx("li", {
-    "class": "nav-item active",
+    className: "nav-item active",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
   }, __jsx("a", {
-    "class": "nav-link",
+    className: "nav-link",
     href: "/",
     __source: {
       fileName: _jsxFileName,
@@ -374,28 +366,28 @@ var Navbar = function Navbar() {
     },
     __self: this
   }, " ", __jsx("i", {
-    "class": "fas fa-home",
+    className: "fas fa-home",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
   }), " ", __jsx("span", {
-    "class": "sr-only",
+    className: "sr-only",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
   }, "(current)"))), __jsx("li", {
-    "class": "nav-item",
+    className: "nav-item",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
   }, __jsx("a", {
-    "class": "nav-link",
+    className: "nav-link",
     href: "/pin",
     __source: {
       fileName: _jsxFileName,
@@ -403,37 +395,37 @@ var Navbar = function Navbar() {
     },
     __self: this
   }, "Pin")), __jsx("li", {
-    "class": "nav-item",
+    className: "nav-item",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
   }, __jsx("a", {
-    "class": "nav-link",
-    href: "../static/whitepaperTest.pdf",
+    className: "nav-link",
+    href: "/roadmap",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, "Whitepaper")), __jsx("li", {
-    "class": "nav-item",
+  }, "Roadmap")), __jsx("li", {
+    className: "nav-item",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
   }, __jsx("a", {
-    "class": "nav-link",
-    href: "/roadmap",
+    className: "nav-link",
+    href: "../static/whitepaperTest.pdf",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
-  }, "Roadmap"))), __jsx("button", {
-    "class": "btn btn-danger my-2 my-sm-0",
+  }, "Whitepaper"))), __jsx("button", {
+    className: "btn btn-danger my-2 my-sm-0",
     type: "button",
     "data-toggle": "modal",
     "data-target": "#myModal",
@@ -11169,7 +11161,7 @@ var Index = function Index() {
     },
     __self: this
   }, __jsx("div", {
-    className: "col-md-7 col-lg-9 text-center py-5 bg-transparent text-light",
+    className: "col-md-7 col-lg-8 text-center py-5 bg-transparent text-light",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
@@ -11208,7 +11200,7 @@ var Index = function Index() {
       lineNumber: 12
     },
     __self: this
-  }, " Permissions using Access Controls, and blah for better speed and scalability"), __jsx("a", {
+  }, " Permissions using access controls, with better speed and scalability"), __jsx("a", {
     className: "btn btn-outline-dark btn-md btn-info text-light",
     href: "../static/whitepaperTest.pdf",
     __source: {
@@ -11224,7 +11216,7 @@ var Index = function Index() {
     },
     __self: this
   }), " Read Whitepaper"))), __jsx("div", {
-    className: "col-md-5 col-lg-3 card-fluid card bg-light my-2",
+    className: "col-md-5 col-lg-4 card-fluid card bg-light my-2",
     style: {
       opacity: .9
     },
@@ -11277,7 +11269,6 @@ var Index = function Index() {
     },
     __self: this
   }), __jsx("label", {
-    "for": "fullName",
     className: "font-weight-light",
     __source: {
       fileName: _jsxFileName,
@@ -11308,7 +11299,6 @@ var Index = function Index() {
     },
     __self: this
   }), __jsx("label", {
-    "for": "companyName",
     className: "font-weight-light",
     __source: {
       fileName: _jsxFileName,
@@ -11339,7 +11329,6 @@ var Index = function Index() {
     },
     __self: this
   }), __jsx("label", {
-    "for": "companyRole",
     className: "font-weight-light",
     __source: {
       fileName: _jsxFileName,
@@ -11370,7 +11359,6 @@ var Index = function Index() {
     },
     __self: this
   }), __jsx("label", {
-    "for": "materialFormCardEmailEx",
     className: "font-weight-light",
     __source: {
       fileName: _jsxFileName,
@@ -11407,7 +11395,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Cindex.js ***!
   \********************************************************************************************************************************************/
@@ -11430,5 +11418,5 @@ module.exports = dll_6b5a3ee2368b61971f52;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

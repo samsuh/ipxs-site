@@ -12,46 +12,46 @@ const Roadmap = () => (
 			<li>
 				<div class="direction-r">
 					<div class="flag-wrapper">
-						<span class="flag">Beta In Progress</span>
-						<span class="time-wrapper"><span class="time">2018 - present</span></span>
+						<span class="flag">Project Start</span>
+						<span class="time-wrapper"><span class="time">June 2018</span></span>
 					</div>
-					<div class="desc">Core Storage Protocol Built!</div>
+					<div class="desc">Team Formation</div>
 				</div>
 			</li>
 			<li>
 				<div class="direction-l">
 					<div class="flag-wrapper">
-						<span class="flag">Beta Launch</span>
-						<span class="time-wrapper"><span class="time">By the end of 2019</span></span>
+						<span class="flag">Core Storage Protocol Built</span>
+						<span class="time-wrapper"><span class="time">Q1 2019</span></span>
 					</div>
-					<div class="desc">Beta will have blah blah features.</div>
+					<div class="desc">Uploads and Downloads Working</div>
 				</div>
 			</li>
 			<li>
 				<div class="direction-r">
+					<div class="flag-wrapper bg-danger">
+						<span class="flag">Testnet Launch</span>
+						<span class="time-wrapper"><span class="time">Q4 2019</span></span>
+					</div>
+					<div class="desc">Testnet Onboarding to Begin December 2019</div>
+				</div>
+			</li>
+			<li>
+				<div class="direction-l">
 					<div class="flag-wrapper">
 						<span class="flag">Mainnet Launch</span>
 						<span class="time-wrapper"><span class="time">Q1 2020</span></span>
 					</div>
-					<div class="desc">Mainnet will have blahblah features.</div>
-				</div>
-			</li>
-			<li>
-				<div class="direction-l">
-					<div class="flag-wrapper">
-						<span class="flag">Milestone 4</span>
-						<span class="time-wrapper"><span class="time">QX 2020</span></span>
-					</div>
-					<div class="desc">Description goes here.</div>
+					<div class="desc">Mainnet Live.</div>
 				</div>
 			</li>
 			<li>
 				<div class="direction-r">
 					<div class="flag-wrapper">
-						<span class="flag">Milestone 5</span>
-						<span class="time-wrapper"><span class="time">QX 2020</span></span>
+						<span class="flag">Additional Featuresets</span>
+						<span class="time-wrapper"><span class="time">Q3 2020</span></span>
 					</div>
-					<div class="desc">Final Deliverable and Continued blahblah.</div>
+					<div class="desc">Final Deliverables and Transition to Maintenance</div>
 				</div>
 			</li>
 		

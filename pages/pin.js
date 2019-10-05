@@ -3,11 +3,11 @@ import Layout from '../components/Layout';
 const Pin = () => (
     <Layout>
     <section className="my-5">
-        <h2 className="h1-responsive font-weight-bold text-center my-5">IPXS Pinning Service</h2>
-        <p className="lead grey-text text-center w-responsive mx-auto mb-5"> Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+        <h1 className="h1-responsive font-weight-bold text-center my-5">IPXS Pinning Service Extends IPFS</h1>
+        <h2 className="grey-text text-center mx-auto mb-5"> Scalable, Available and Fast!</h2>
         <div className="row">
         <div className="col-lg-5 text-center text-lg-left">
-        <img className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg" alt="Sample image" />
+        <img className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/screens-section.jpg" alt="mockup image" />
         </div>
         <div className="col-lg-7">
         <div className="row mb-3">
@@ -16,7 +16,7 @@ const Pin = () => (
             </div>
             <div className="col-xl-10 col-md-11 col-10">
             <h5 className="font-weight-bold mb-3">File Availability</h5>
-            <p className="grey-text">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+            <p className="grey-text">File Uptime and Discoverability consistent for Production-grade applications.</p>
             </div>
         </div>
         <div className="row mb-3">
@@ -25,7 +25,7 @@ const Pin = () => (
             </div>
             <div className="col-xl-10 col-md-11 col-10">
             <h5 className="font-weight-bold mb-3">Easy Maintenance</h5>
-            <p className="grey-text">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+            <p className="grey-text">Utilize your resources better by spending less developer hours on maintaining IPFS infrastructure.</p>
             </div>
         </div>
         <div className="row">
@@ -34,15 +34,14 @@ const Pin = () => (
             </div>
             <div className="col-xl-10 col-md-11 col-10">
             <h5 className="font-weight-bold mb-3">Reduce Costs by 80%</h5>
-            <p className="grey-text">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+            <p className="grey-text">Data-heavy applications benefit from drastically reduced storage costs compared with centralized alternatives.</p>
             </div>
         </div>
         </div>
     </div>
     </section>
     <section className="text-center my-5">
-        <h2 className="h1-responsive font-weight-bold text-center my-5">Our pricing plans</h2>
-        <p className="text-center w-responsive mx-auto mb-5">Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+        <h2 className="h1-responsive font-weight-bold text-center my-3">Pin Price Plans</h2>
         <div className="row">
             <div className="col-lg-4 col-md-12 mb-lg-0 mb-4">
             <div className="pricing-card card">

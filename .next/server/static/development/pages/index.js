@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -112,21 +112,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Footer = () => __jsx("footer", {
-  class: "page-footer font-small text-center bg-light static-bottom",
+  className: "page-footer font-small text-center bg-light static-bottom",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
   },
   __self: undefined
 }, __jsx("div", {
-  class: "footer-copyright text-center py-3 bg-dark text-light",
+  className: "footer-copyright text-center py-3 bg-dark text-light",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
 }, "\xA9", __jsx("a", {
-  class: "text-light",
+  className: "text-light",
   href: "https://www.ipxs.io",
   __source: {
     fileName: _jsxFileName,
@@ -215,17 +215,17 @@ const Layout = props => __jsx("div", {
     lineNumber: 12
   },
   __self: undefined
-}), "        "), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
+})), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 14
   },
   __self: undefined
 }), __jsx("div", {
   className: "container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 15
   },
   __self: undefined
 }, props.children), __jsx("div", {
@@ -234,7 +234,7 @@ const Layout = props => __jsx("div", {
   role: "dialog",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 18
   },
   __self: undefined
 }, __jsx("div", {
@@ -242,7 +242,7 @@ const Layout = props => __jsx("div", {
   role: "document",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 19
   },
   __self: undefined
 }, __jsx("div", {
@@ -252,21 +252,19 @@ const Layout = props => __jsx("div", {
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 20
   },
   __self: undefined
 }, __jsx("button", {
   type: "button",
-  className: "close text-light text-right",
+  className: "close text-light text-right px-4 py-2",
   "data-dismiss": "modal",
-  "aria-label": "Close",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 22
   },
   __self: undefined
 }, __jsx("span", {
-  "aria-hidden": "true",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 23
@@ -316,7 +314,6 @@ const Layout = props => __jsx("div", {
   type: "text",
   className: "form-control",
   id: "subscribeName",
-  "aria-describedby": "textHelp",
   placeholder: "Full Name",
   __source: {
     fileName: _jsxFileName,
@@ -327,25 +324,24 @@ const Layout = props => __jsx("div", {
   className: "form-group",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33
+    lineNumber: 32
   },
   __self: undefined
 }, __jsx("label", {
   for: "subscribeEmail",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34
+    lineNumber: 33
   },
   __self: undefined
 }, "Email address"), __jsx("input", {
   type: "email",
   className: "form-control",
   id: "subscribeEmail",
-  "aria-describedby": "emailHelp",
   placeholder: "Email",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 34
   },
   __self: undefined
 }), __jsx("small", {
@@ -353,23 +349,22 @@ const Layout = props => __jsx("div", {
   className: "form-text text-muted",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 35
   },
   __self: undefined
 }, "We'll never share your email with anyone else.")), __jsx("button", {
   type: "submit",
   className: "btn btn-danger btn-cta btn-block",
   "data-dismiss": "modal",
-  "aria-label": "Close",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 39
+    lineNumber: 37
   },
   __self: undefined
 }, "Subscribe")))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 47
+    lineNumber: 43
   },
   __self: undefined
 }));
@@ -397,14 +392,14 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Navbar = () => __jsx("nav", {
-  class: "navbar navbar-expand-lg navbar-dark bg-dark sticky-top",
+  className: "navbar navbar-expand-lg navbar-dark bg-dark sticky-top",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
   },
   __self: undefined
 }, __jsx("a", {
-  class: "navbar-brand",
+  className: "navbar-brand",
   href: "/",
   __source: {
     fileName: _jsxFileName,
@@ -412,27 +407,24 @@ const Navbar = () => __jsx("nav", {
   },
   __self: undefined
 }, "IPXS"), __jsx("button", {
-  class: "navbar-toggler",
+  className: "navbar-toggler",
   type: "button",
   "data-toggle": "collapse",
   "data-target": "#navbarColor02",
-  "aria-controls": "navbarColor02",
-  "aria-expanded": "false",
-  "aria-label": "Toggle navigation",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
 }, __jsx("span", {
-  class: "navbar-toggler-icon",
+  className: "navbar-toggler-icon",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
   },
   __self: undefined
 })), __jsx("div", {
-  class: "collapse navbar-collapse",
+  className: "collapse navbar-collapse",
   id: "navbarColor02",
   __source: {
     fileName: _jsxFileName,
@@ -440,21 +432,21 @@ const Navbar = () => __jsx("nav", {
   },
   __self: undefined
 }, __jsx("ul", {
-  class: "navbar-nav mr-auto",
+  className: "navbar-nav ml-auto pr-4",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11
   },
   __self: undefined
 }, __jsx("li", {
-  class: "nav-item active",
+  className: "nav-item active",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
 }, __jsx("a", {
-  class: "nav-link",
+  className: "nav-link",
   href: "/",
   __source: {
     fileName: _jsxFileName,
@@ -462,28 +454,28 @@ const Navbar = () => __jsx("nav", {
   },
   __self: undefined
 }, " ", __jsx("i", {
-  class: "fas fa-home",
+  className: "fas fa-home",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
 }), " ", __jsx("span", {
-  class: "sr-only",
+  className: "sr-only",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
 }, "(current)"))), __jsx("li", {
-  class: "nav-item",
+  className: "nav-item",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
   },
   __self: undefined
 }, __jsx("a", {
-  class: "nav-link",
+  className: "nav-link",
   href: "/pin",
   __source: {
     fileName: _jsxFileName,
@@ -491,37 +483,37 @@ const Navbar = () => __jsx("nav", {
   },
   __self: undefined
 }, "Pin")), __jsx("li", {
-  class: "nav-item",
+  className: "nav-item",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 18
   },
   __self: undefined
 }, __jsx("a", {
-  class: "nav-link",
-  href: "../static/whitepaperTest.pdf",
+  className: "nav-link",
+  href: "/roadmap",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 19
   },
   __self: undefined
-}, "Whitepaper")), __jsx("li", {
-  class: "nav-item",
+}, "Roadmap")), __jsx("li", {
+  className: "nav-item",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 21
   },
   __self: undefined
 }, __jsx("a", {
-  class: "nav-link",
-  href: "/roadmap",
+  className: "nav-link",
+  href: "../static/whitepaperTest.pdf",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 22
   },
   __self: undefined
-}, "Roadmap"))), __jsx("button", {
-  class: "btn btn-danger my-2 my-sm-0",
+}, "Whitepaper"))), __jsx("button", {
+  className: "btn btn-danger my-2 my-sm-0",
   type: "button",
   "data-toggle": "modal",
   "data-target": "#myModal",
@@ -2271,7 +2263,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("div", {
-  className: "col-md-7 col-lg-9 text-center py-5 bg-transparent text-light",
+  className: "col-md-7 col-lg-8 text-center py-5 bg-transparent text-light",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 8
@@ -2310,7 +2302,7 @@ const Index = () => __jsx("div", {
     lineNumber: 12
   },
   __self: undefined
-}, " Permissions using Access Controls, and blah for better speed and scalability"), __jsx("a", {
+}, " Permissions using access controls, with better speed and scalability"), __jsx("a", {
   className: "btn btn-outline-dark btn-md btn-info text-light",
   href: "../static/whitepaperTest.pdf",
   __source: {
@@ -2326,7 +2318,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), " Read Whitepaper"))), __jsx("div", {
-  className: "col-md-5 col-lg-3 card-fluid card bg-light my-2",
+  className: "col-md-5 col-lg-4 card-fluid card bg-light my-2",
   style: {
     opacity: .9
   },
@@ -2379,7 +2371,6 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), __jsx("label", {
-  for: "fullName",
   className: "font-weight-light",
   __source: {
     fileName: _jsxFileName,
@@ -2410,7 +2401,6 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), __jsx("label", {
-  for: "companyName",
   className: "font-weight-light",
   __source: {
     fileName: _jsxFileName,
@@ -2441,7 +2431,6 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), __jsx("label", {
-  for: "companyRole",
   className: "font-weight-light",
   __source: {
     fileName: _jsxFileName,
@@ -2472,7 +2461,6 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), __jsx("label", {
-  for: "materialFormCardEmailEx",
   className: "font-weight-light",
   __source: {
     fileName: _jsxFileName,
@@ -2508,7 +2496,7 @@ const Index = () => __jsx("div", {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
