@@ -57,7 +57,7 @@ class Form extends React.Component {
                     />
                 <br/>
                 </label>
-                    <input type="submit" value="Stay Updated" name="subscribe" id="mc-embedded-subscribe" className="button btn btn-danger justify-content-center"/>
+                    <input type="submit" value="Stay Updated" name="subscribe" id="mc-embedded-subscribe" className="button btn btn-danger"/>
 
                 <div style={{position: 'absolute', left: '-5000px'}} aria-hidden='true' aria-label="Please leave the following three fields empty">
                     <label htmlFor="b_name">Name: </label>

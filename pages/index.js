@@ -20,14 +20,6 @@ const Index = () => (
             <div className="col-md-5 col-lg-4 card-fluid card bg-light my-2" style={{opacity:.9}}>
                 <Form/>
             </div>
-
-
-
-
-
-
-
-
         </div>
     </div>
     </Layout>
