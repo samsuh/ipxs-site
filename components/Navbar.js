@@ -22,7 +22,6 @@ const Navbar = () => (
                 <a className="nav-link" href="../static/whitepaperTest.pdf">Whitepaper</a>
             </li>
             </ul>
-                <button className="btn btn-danger my-2 my-sm-0" type="button" data-toggle="modal" data-target="#myModal">Join Beta Waitlist</button>
         </div>
     </nav>
 );

@@ -21,7 +21,7 @@ const Roadmap = () => (
 			<li>
 				<div class="direction-l">
 					<div class="flag-wrapper">
-						<span class="flag">Core Storage Protocol Built</span>
+						<span class="flag">Core Storage Built</span>
 						<span class="time-wrapper"><span class="time">Q1 2019</span></span>
 					</div>
 					<div class="desc">Uploads and Downloads Working</div>

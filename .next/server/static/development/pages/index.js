@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -112,7 +112,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Footer = () => __jsx("footer", {
-  className: "page-footer font-small text-center bg-light static-bottom",
+  className: "page-footer font-small text-center bg-light fixed-bottom",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
@@ -162,6 +162,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Layout = props => __jsx("div", {
+  style: {
+    height: '100vh'
+  },
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
@@ -510,17 +513,7 @@ const Navbar = () => __jsx("nav", {
     lineNumber: 22
   },
   __self: undefined
-}, "Whitepaper"))), __jsx("button", {
-  className: "btn btn-danger my-2 my-sm-0",
-  type: "button",
-  "data-toggle": "modal",
-  "data-target": "#myModal",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 25
-  },
-  __self: undefined
-}, "Join Beta Waitlist")));
+}, "Whitepaper")))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
 
@@ -2233,7 +2226,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const Index = () => __jsx("div", {
   style: {
-    backgroundImage: "url(" + "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" + ")"
+    backgroundImage: "url(" + "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" + ")",
+    height: '100%'
   },
   __source: {
     fileName: _jsxFileName,
@@ -2286,33 +2280,79 @@ const Index = () => __jsx("div", {
     lineNumber: 10
   },
   __self: undefined
-}, "Is Your Dapp Still Using AWS?")), __jsx("h4", {
-  className: "mx-5 mb-5",
+}, "IPXS is Filecoin on Ethereum")), __jsx("h4", {
+  className: "mx-5 mb-3",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11
   },
   __self: undefined
-}, "Decentralized Storage. Less Effort."), __jsx("p", {
-  className: "mx-5 mb-5",
+}, "Upgraded IPFS with:"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
-}, " Permissions using access controls, with better speed and scalability"), __jsx("a", {
-  className: "btn btn-outline-dark btn-md btn-info text-light",
-  href: "../static/whitepaperTest.pdf",
+}, __jsx("i", {
+  className: "fas fa-check mr-2",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}), "Permissioned Files"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
 }, __jsx("i", {
-  className: "fas fa-clone left",
+  className: "fas fa-check mr-2",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
+  },
+  __self: undefined
+}), "Improved Speed"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "fas fa-check mr-2",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}), "Improved Availability"), __jsx("p", {
+  className: "mb-5",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "fas fa-check mr-2",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}), " ERC20 Token Incentives"), __jsx("a", {
+  className: "btn btn-outline-dark btn-md btn-info text-light",
+  href: "../static/whitepaperTest.pdf",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "fas fa-clone left",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
   },
   __self: undefined
 }), " Read Whitepaper"))), __jsx("div", {
@@ -2322,34 +2362,34 @@ const Index = () => __jsx("div", {
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 19
   },
   __self: undefined
 }, __jsx("div", {
   className: "card-body",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 20
   },
   __self: undefined
 }, __jsx("form", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 21
   },
   __self: undefined
 }, __jsx("p", {
   className: "h4 text-center py-4",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 22
   },
   __self: undefined
 }, "Decentralize Now"), __jsx("div", {
   className: "md-form",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("input", {
@@ -2358,88 +2398,58 @@ const Index = () => __jsx("div", {
   className: "form-control",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 24
   },
   __self: undefined
 }), __jsx("i", {
   className: "fas fa-user prefix grey-text pr-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 25
   },
   __self: undefined
 }), __jsx("label", {
   className: "font-weight-light",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 26
   },
   __self: undefined
 }, " Your name")), __jsx("div", {
   className: "md-form",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 28
   },
   __self: undefined
 }, __jsx("input", {
   type: "text",
-  id: "companyName",
+  id: "projectName",
   className: "form-control",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 26
+    lineNumber: 29
   },
   __self: undefined
 }), __jsx("i", {
   className: "fas fa-building prefix grey-text pr-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27
+    lineNumber: 30
   },
   __self: undefined
 }), __jsx("label", {
   className: "font-weight-light",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 28
-  },
-  __self: undefined
-}, " Company")), __jsx("div", {
-  className: "md-form",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 30
-  },
-  __self: undefined
-}, __jsx("input", {
-  type: "text",
-  id: "companyRole",
-  className: "form-control",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 31
   },
   __self: undefined
-}), __jsx("i", {
-  className: "fas fa-sitemap prefix grey-text pr-2",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 32
-  },
-  __self: undefined
-}), __jsx("label", {
-  className: "font-weight-light",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 33
-  },
-  __self: undefined
-}, " Role at Company")), __jsx("div", {
+}, " Project")), __jsx("div", {
   className: "md-form",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 33
   },
   __self: undefined
 }, __jsx("input", {
@@ -2448,28 +2458,28 @@ const Index = () => __jsx("div", {
   className: "form-control",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 34
   },
   __self: undefined
 }), __jsx("i", {
   className: "fas fa-envelope prefix grey-text pr-2",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 35
   },
   __self: undefined
 }), __jsx("label", {
   className: "font-weight-light",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 36
   },
   __self: undefined
 }, " Your email")), __jsx("div", {
   className: "text-center pb-4 mt-3",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 40
+    lineNumber: 38
   },
   __self: undefined
 }, __jsx("button", {
@@ -2477,15 +2487,15 @@ const Index = () => __jsx("div", {
   type: "submit",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 41
+    lineNumber: 39
   },
   __self: undefined
-}, "Contact Specialist"), __jsx("small", {
+}, "Stay Updated"), __jsx("small", {
   id: "emailHelp",
   className: "form-text text-muted",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 42
+    lineNumber: 40
   },
   __self: undefined
 }, "We'll never share your email.")))))))));
@@ -2494,7 +2504,7 @@ const Index = () => __jsx("div", {
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
