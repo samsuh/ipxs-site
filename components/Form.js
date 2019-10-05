@@ -10,20 +10,20 @@ class Form extends React.Component {
     
     render() {
         return (
-            <div className="card-body justify-content-center">
-                <p className="h4 text-center py-4 ">Decentralize Now</p>
+            <div className="card-body ">
+                <p className="h4 text-center py-4 ">Stay Updated</p>
                 <form action="https://gmail.us20.list-manage.com/subscribe/post" method="POST" className="px-5">
                     <input type="hidden" name="u" value="d3d3bb204705bc189b8f60f9e"/>
                 <input type="hidden" name="id" value="da4a6bf8e6"/>
                 
                 <label htmlFor='mce-FULLNAME' className="font-weight-light">
                     <i class="material-icons mr-2 align-middle">account_box</i>
-                    Full name
+                    Full name *
                     <input 
                         type="text" 
                         name="FULLNAME" 
                         id="mce-FULLNAME" 
-                        className="form-control justify-content-center"
+                        className="form-control "
                         value={this.state.fNameValue} 
                         onChange={(e)=>{this.setState({fNameValue: e.target.value});}}
                     />
@@ -31,7 +31,7 @@ class Form extends React.Component {
 
                 <label htmlFor='mce-EMAIL' className="font-weight-light">
                 <i class="material-icons mr-2 align-middle">email</i>
-                    Email
+                    Email *
                     <input 
                         type="email" 
                         name="EMAIL" 
@@ -46,7 +46,7 @@ class Form extends React.Component {
 
                 <label htmlFor='mce-PROJECT' className="font-weight-light"> 
                 <i class="material-icons mr-2 align-middle">business</i>
-                    Project name 
+                    Project name <small>(optional)</small>
                     <input 
                         type="text" 
                         name="PROJECT" 
@@ -57,7 +57,7 @@ class Form extends React.Component {
                     />
                 <br/>
                 </label>
-                    <input type="submit" value="Stay Updated" name="subscribe" id="mc-embedded-subscribe" className="button btn btn-danger"/>
+                    <input type="submit" value="Stay Updated" name="subscribe" id="mc-embedded-subscribe" className="button btn btn-danger px-5"/>
 
                 <div style={{position: 'absolute', left: '-5000px'}} aria-hidden='true' aria-label="Please leave the following three fields empty">
                     <label htmlFor="b_name">Name: </label>

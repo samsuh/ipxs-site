@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -139,6 +139,267 @@ const Footer = () => __jsx("footer", {
 
 /***/ }),
 
+/***/ "./components/Form.js":
+/*!****************************!*\
+  !*** ./components/Form.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Form.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+class Form extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      emailValue: '',
+      fNameValue: '',
+      pNameValue: ''
+    };
+  }
+
+  render() {
+    return __jsx("div", {
+      className: "card-body ",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    }, __jsx("p", {
+      className: "h4 text-center py-4 ",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, "Stay Updated"), __jsx("form", {
+      action: "https://gmail.us20.list-manage.com/subscribe/post",
+      method: "POST",
+      className: "px-5",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }, __jsx("input", {
+      type: "hidden",
+      name: "u",
+      value: "d3d3bb204705bc189b8f60f9e",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }), __jsx("input", {
+      type: "hidden",
+      name: "id",
+      value: "da4a6bf8e6",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }), __jsx("label", {
+      htmlFor: "mce-FULLNAME",
+      className: "font-weight-light",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19
+      },
+      __self: this
+    }, __jsx("i", {
+      class: "material-icons mr-2 align-middle",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, "account_box"), "Full name *", __jsx("input", {
+      type: "text",
+      name: "FULLNAME",
+      id: "mce-FULLNAME",
+      className: "form-control ",
+      value: this.state.fNameValue,
+      onChange: e => {
+        this.setState({
+          fNameValue: e.target.value
+        });
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    })), __jsx("label", {
+      htmlFor: "mce-EMAIL",
+      className: "font-weight-light",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }, __jsx("i", {
+      class: "material-icons mr-2 align-middle",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: this
+    }, "email"), "Email *", __jsx("input", {
+      type: "email",
+      name: "EMAIL",
+      id: "mce-EMAIL",
+      className: "form-control",
+      value: this.state.emailValue,
+      onChange: e => {
+        this.setState({
+          emailValue: e.target.value
+        });
+      },
+      autoCapitalize: "off",
+      autoCorrect: "off",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    })), __jsx("label", {
+      htmlFor: "mce-PROJECT",
+      className: "font-weight-light",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47
+      },
+      __self: this
+    }, __jsx("i", {
+      class: "material-icons mr-2 align-middle",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48
+      },
+      __self: this
+    }, "business"), "Project name ", __jsx("small", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49
+      },
+      __self: this
+    }, "(optional)"), __jsx("input", {
+      type: "text",
+      name: "PROJECT",
+      id: "mce-PROJECT",
+      className: "form-control",
+      value: this.state.pNameValue,
+      onChange: e => {
+        this.setState({
+          pNameValue: e.target.value
+        });
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }), __jsx("br", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58
+      },
+      __self: this
+    })), __jsx("input", {
+      type: "submit",
+      value: "Stay Updated",
+      name: "subscribe",
+      id: "mc-embedded-subscribe",
+      className: "button btn btn-danger px-5",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60
+      },
+      __self: this
+    }), __jsx("div", {
+      style: {
+        position: 'absolute',
+        left: '-5000px'
+      },
+      "aria-hidden": "true",
+      "aria-label": "Please leave the following three fields empty",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62
+      },
+      __self: this
+    }, __jsx("label", {
+      htmlFor: "b_name",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63
+      },
+      __self: this
+    }, "Name: "), __jsx("input", {
+      type: "text",
+      name: "b_d3d3bb204705bc189b8f60f9e_da4a6bf8e6",
+      tabIndex: "-1",
+      value: "",
+      placeholder: "Sam",
+      id: "b_name",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }), __jsx("label", {
+      htmlFor: "b_email",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    }, "Email: "), __jsx("input", {
+      type: "email",
+      name: "b_email",
+      tabIndex: "-1",
+      value: "",
+      placeholder: "youremail@gmail.com",
+      id: "b_email",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67
+      },
+      __self: this
+    }), __jsx("label", {
+      htmlFor: "b_comment",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69
+      },
+      __self: this
+    }, "Comment: "), __jsx("textarea", {
+      name: "b_comment",
+      tabIndex: "-1",
+      placeholder: "Please comment",
+      id: "b_comment",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70
+      },
+      __self: this
+    }))));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Form);
+
+/***/ }),
+
 /***/ "./components/Layout.js":
 /*!******************************!*\
   !*** ./components/Layout.js ***!
@@ -154,9 +415,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer */ "./components/Footer.js");
+/* harmony import */ var _components_Form__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Form */ "./components/Form.js");
 var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -167,19 +430,19 @@ const Layout = props => __jsx("div", {
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 7
   },
   __self: undefined
 }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 8
   },
   __self: undefined
 }, __jsx("title", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 9
   },
   __self: undefined
 }, "IPXS Storage Protocol"), __jsx("link", {
@@ -189,14 +452,14 @@ const Layout = props => __jsx("div", {
   crossOrigin: "anonymous",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 10
   },
   __self: undefined
 }), __jsx("script", {
   src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 11
   },
   __self: undefined
 }), __jsx("script", {
@@ -205,7 +468,7 @@ const Layout = props => __jsx("div", {
   crossOrigin: "anonymous",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 12
   },
   __self: undefined
 }), __jsx("link", {
@@ -213,20 +476,20 @@ const Layout = props => __jsx("div", {
   rel: "stylesheet",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 13
   },
   __self: undefined
 })), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 16
   },
   __self: undefined
 }), __jsx("div", {
   className: "container",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 17
   },
   __self: undefined
 }, props.children), __jsx("div", {
@@ -235,7 +498,7 @@ const Layout = props => __jsx("div", {
   role: "dialog",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 20
   },
   __self: undefined
 }, __jsx("div", {
@@ -243,7 +506,7 @@ const Layout = props => __jsx("div", {
   role: "document",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 21
   },
   __self: undefined
 }, __jsx("div", {
@@ -253,7 +516,7 @@ const Layout = props => __jsx("div", {
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 22
   },
   __self: undefined
 }, __jsx("button", {
@@ -262,110 +525,32 @@ const Layout = props => __jsx("div", {
   "data-dismiss": "modal",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 24
   },
   __self: undefined
 }, __jsx("span", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
+    lineNumber: 25
   },
   __self: undefined
 }, "\xD7")), __jsx("div", {
-  className: "modal-body",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 26
-  },
-  __self: undefined
-}, __jsx("form", {
-  className: "px-sm-4 py-sm-4 text-light text-center",
+  className: "modal-body text-light",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 27
   },
   __self: undefined
-}, __jsx("h4", {
+}, __jsx(_components_Form__WEBPACK_IMPORTED_MODULE_4__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 28
   },
   __self: undefined
-}, "Be Notified When "), __jsx("h4", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 28
-  },
-  __self: undefined
-}, "IPXS Beta Goes Live!"), __jsx("div", {
-  className: "form-group",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 29
-  },
-  __self: undefined
-}, __jsx("label", {
-  htmlFor: "subscribeName",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 30
-  },
-  __self: undefined
-}, "Name"), __jsx("input", {
-  type: "text",
-  className: "form-control",
-  id: "subscribeName",
-  placeholder: "Full Name",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 31
-  },
-  __self: undefined
-})), __jsx("div", {
-  className: "form-group",
+}))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 33
-  },
-  __self: undefined
-}, __jsx("label", {
-  htmlFor: "subscribeEmail",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 34
-  },
-  __self: undefined
-}, "Email address"), __jsx("input", {
-  type: "email",
-  className: "form-control",
-  id: "subscribeEmail",
-  placeholder: "Email",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 35
-  },
-  __self: undefined
-}), __jsx("small", {
-  id: "emailHelp",
-  className: "form-text text-muted",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 36
-  },
-  __self: undefined
-}, "We'll never share your email with anyone else.")), __jsx("button", {
-  type: "submit",
-  className: "btn btn-danger btn-cta btn-block",
-  "data-dismiss": "modal",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 38
-  },
-  __self: undefined
-}, "Subscribe")))))), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 44
   },
   __self: undefined
 }));
@@ -2861,7 +3046,7 @@ const Pin = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!****************************!*\
   !*** multi ./pages/pin.js ***!
   \****************************/
