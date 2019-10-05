@@ -11146,7 +11146,7 @@ var Roadmap = function Roadmap() {
     },
     __self: this
   })), __jsx("div", {
-    "class": "container",
+    className: "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -11159,7 +11159,7 @@ var Roadmap = function Roadmap() {
     },
     __self: this
   }, "IPXS Roadmap"), __jsx("ul", {
-    "class": "timeline",
+    className: "timeline",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -11172,42 +11172,42 @@ var Roadmap = function Roadmap() {
     },
     __self: this
   }, __jsx("div", {
-    "class": "direction-r",
+    className: "direction-r",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
   }, __jsx("div", {
-    "class": "flag-wrapper",
+    className: "flag-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: this
   }, __jsx("span", {
-    "class": "flag",
+    className: "flag",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
   }, "Project Start"), __jsx("span", {
-    "class": "time-wrapper",
+    className: "time-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
   }, __jsx("span", {
-    "class": "time",
+    className: "time",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
   }, "June 2018"))), __jsx("div", {
-    "class": "desc",
+    className: "desc",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -11220,42 +11220,42 @@ var Roadmap = function Roadmap() {
     },
     __self: this
   }, __jsx("div", {
-    "class": "direction-l",
+    className: "direction-l",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
   }, __jsx("div", {
-    "class": "flag-wrapper",
+    className: "flag-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
   }, __jsx("span", {
-    "class": "flag",
+    className: "flag",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
   }, "Core Storage Built"), __jsx("span", {
-    "class": "time-wrapper",
+    className: "time-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
   }, __jsx("span", {
-    "class": "time",
+    className: "time",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
   }, "Q1 2019"))), __jsx("div", {
-    "class": "desc",
+    className: "desc",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
@@ -11268,42 +11268,42 @@ var Roadmap = function Roadmap() {
     },
     __self: this
   }, __jsx("div", {
-    "class": "direction-r",
+    className: "direction-r",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
   }, __jsx("div", {
-    "class": "flag-wrapper bg-danger",
+    className: "flag-wrapper bg-danger",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     },
     __self: this
   }, __jsx("span", {
-    "class": "flag",
+    className: "flag",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
     },
     __self: this
   }, "Testnet Launch"), __jsx("span", {
-    "class": "time-wrapper",
+    className: "time-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
   }, __jsx("span", {
-    "class": "time",
+    className: "time",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
   }, "Q4 2019"))), __jsx("div", {
-    "class": "desc",
+    className: "desc",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
@@ -11316,42 +11316,42 @@ var Roadmap = function Roadmap() {
     },
     __self: this
   }, __jsx("div", {
-    "class": "direction-l",
+    className: "direction-l",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: this
   }, __jsx("div", {
-    "class": "flag-wrapper",
+    className: "flag-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     },
     __self: this
   }, __jsx("span", {
-    "class": "flag",
+    className: "flag",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
   }, "Mainnet Launch"), __jsx("span", {
-    "class": "time-wrapper",
+    className: "time-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
     },
     __self: this
   }, __jsx("span", {
-    "class": "time",
+    className: "time",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
     },
     __self: this
   }, "Q1 2020"))), __jsx("div", {
-    "class": "desc",
+    className: "desc",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
@@ -11364,42 +11364,42 @@ var Roadmap = function Roadmap() {
     },
     __self: this
   }, __jsx("div", {
-    "class": "direction-r",
+    className: "direction-r",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49
     },
     __self: this
   }, __jsx("div", {
-    "class": "flag-wrapper",
+    className: "flag-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
     },
     __self: this
   }, __jsx("span", {
-    "class": "flag",
+    className: "flag",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 51
     },
     __self: this
   }, "Additional Featuresets"), __jsx("span", {
-    "class": "time-wrapper",
+    className: "time-wrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
     },
     __self: this
   }, __jsx("span", {
-    "class": "time",
+    className: "time",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
     },
     __self: this
   }, "Q3 2020"))), __jsx("div", {
-    "class": "desc",
+    className: "desc",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 54
@@ -11412,7 +11412,7 @@ var Roadmap = function Roadmap() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!*****************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Froadmap&absolutePagePath=C%3A%5CUsers%5CSamuel%20Suh%5CDesktop%5Cipxs%5Cipxs-site%5Cpages%5Croadmap.js ***!
   \*****************************************************************************************************************************************************/
@@ -11435,5 +11435,5 @@ module.exports = dll_6b5a3ee2368b61971f52;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=roadmap.js.map

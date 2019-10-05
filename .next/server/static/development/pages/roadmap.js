@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2248,7 +2248,7 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __self: undefined
 })), __jsx("div", {
-  class: "container",
+  className: "container",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
@@ -2261,7 +2261,7 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __self: undefined
 }, "IPXS Roadmap"), __jsx("ul", {
-  class: "timeline",
+  className: "timeline",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11
@@ -2274,42 +2274,42 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __self: undefined
 }, __jsx("div", {
-  class: "direction-r",
+  className: "direction-r",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
 }, __jsx("div", {
-  class: "flag-wrapper",
+  className: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14
   },
   __self: undefined
 }, __jsx("span", {
-  class: "flag",
+  className: "flag",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
   },
   __self: undefined
 }, "Project Start"), __jsx("span", {
-  class: "time-wrapper",
+  className: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 16
   },
   __self: undefined
 }, __jsx("span", {
-  class: "time",
+  className: "time",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 16
   },
   __self: undefined
 }, "June 2018"))), __jsx("div", {
-  class: "desc",
+  className: "desc",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 18
@@ -2322,42 +2322,42 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __self: undefined
 }, __jsx("div", {
-  class: "direction-l",
+  className: "direction-l",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 22
   },
   __self: undefined
 }, __jsx("div", {
-  class: "flag-wrapper",
+  className: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 23
   },
   __self: undefined
 }, __jsx("span", {
-  class: "flag",
+  className: "flag",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 24
   },
   __self: undefined
 }, "Core Storage Built"), __jsx("span", {
-  class: "time-wrapper",
+  className: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
   },
   __self: undefined
 }, __jsx("span", {
-  class: "time",
+  className: "time",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
   },
   __self: undefined
 }, "Q1 2019"))), __jsx("div", {
-  class: "desc",
+  className: "desc",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 27
@@ -2370,42 +2370,42 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __self: undefined
 }, __jsx("div", {
-  class: "direction-r",
+  className: "direction-r",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 31
   },
   __self: undefined
 }, __jsx("div", {
-  class: "flag-wrapper bg-danger",
+  className: "flag-wrapper bg-danger",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 32
   },
   __self: undefined
 }, __jsx("span", {
-  class: "flag",
+  className: "flag",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 33
   },
   __self: undefined
 }, "Testnet Launch"), __jsx("span", {
-  class: "time-wrapper",
+  className: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 34
   },
   __self: undefined
 }, __jsx("span", {
-  class: "time",
+  className: "time",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 34
   },
   __self: undefined
 }, "Q4 2019"))), __jsx("div", {
-  class: "desc",
+  className: "desc",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 36
@@ -2418,42 +2418,42 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __self: undefined
 }, __jsx("div", {
-  class: "direction-l",
+  className: "direction-l",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 40
   },
   __self: undefined
 }, __jsx("div", {
-  class: "flag-wrapper",
+  className: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 41
   },
   __self: undefined
 }, __jsx("span", {
-  class: "flag",
+  className: "flag",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 42
   },
   __self: undefined
 }, "Mainnet Launch"), __jsx("span", {
-  class: "time-wrapper",
+  className: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 43
   },
   __self: undefined
 }, __jsx("span", {
-  class: "time",
+  className: "time",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 43
   },
   __self: undefined
 }, "Q1 2020"))), __jsx("div", {
-  class: "desc",
+  className: "desc",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 45
@@ -2466,42 +2466,42 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
   },
   __self: undefined
 }, __jsx("div", {
-  class: "direction-r",
+  className: "direction-r",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 49
   },
   __self: undefined
 }, __jsx("div", {
-  class: "flag-wrapper",
+  className: "flag-wrapper",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 50
   },
   __self: undefined
 }, __jsx("span", {
-  class: "flag",
+  className: "flag",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 51
   },
   __self: undefined
 }, "Additional Featuresets"), __jsx("span", {
-  class: "time-wrapper",
+  className: "time-wrapper",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 52
   },
   __self: undefined
 }, __jsx("span", {
-  class: "time",
+  className: "time",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 52
   },
   __self: undefined
 }, "Q3 2020"))), __jsx("div", {
-  class: "desc",
+  className: "desc",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 54
@@ -2513,7 +2513,7 @@ const Roadmap = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["def
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!********************************!*\
   !*** multi ./pages/roadmap.js ***!
   \********************************/
