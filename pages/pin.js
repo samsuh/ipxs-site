@@ -16,7 +16,7 @@ const Pin = () => (
             </div>
             <div className="col-xl-10 col-md-11 col-10">
             <h5 className="font-weight-bold mb-3">File Availability</h5>
-            <p className="grey-text">File Uptime and Discoverability consistent for Production-grade applications.</p>
+            <p className="grey-text"><strong>99.999%</strong> File Uptime for Production-grade applications.</p>
             </div>
         </div>
         <div className="row mb-3">
@@ -24,8 +24,8 @@ const Pin = () => (
                 <i className="material-icons mr-2 align-bottom">check</i>
             </div>
             <div className="col-xl-10 col-md-11 col-10">
-            <h5 className="font-weight-bold mb-3">Easy Maintenance</h5>
-            <p className="grey-text">Utilize your resources better by spending less developer hours on maintaining IPFS infrastructure.</p>
+            <h5 className="font-weight-bold mb-3">Eliminate Server Upkeep</h5>
+            <p className="grey-text">Utilize your resources better by redirecting developer hours away from maintaining storage infrastructure; <strong>no required maintenance.</strong></p>
             </div>
         </div>
         <div className="row">
@@ -33,8 +33,8 @@ const Pin = () => (
                 <i className="material-icons mr-2 align-bottom">check</i>
             </div>
             <div className="col-xl-10 col-md-11 col-10">
-            <h5 className="font-weight-bold mb-3">Reduce Costs by 80%</h5>
-            <p className="grey-text">Data-heavy applications benefit from drastically reduced storage costs compared with centralized alternatives.</p>
+            <h5 className="font-weight-bold mb-3">Speed</h5>
+            <p className="grey-text">Data-heavy applications benefit from <strong>40ms response time</strong>.</p>
             </div>
         </div>
         </div>

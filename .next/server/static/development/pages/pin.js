@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -136,261 +136,6 @@ const Footer = () => __jsx("footer", {
 }, "2019 IPXS")));
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
-
-/***/ "./components/Form.js":
-/*!****************************!*\
-  !*** ./components/Form.js ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\components\\Form.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-class Form extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      emailValue: '',
-      fNameValue: '',
-      pNameValue: ''
-    };
-  }
-
-  render() {
-    return __jsx("div", {
-      className: "card-body justify-content-center",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 13
-      },
-      __self: this
-    }, __jsx("p", {
-      className: "h4 text-center py-4 ",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 14
-      },
-      __self: this
-    }, "Decentralize Now"), __jsx("form", {
-      action: "https://gmail.us20.list-manage.com/subscribe/post",
-      method: "POST",
-      className: "px-5",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 15
-      },
-      __self: this
-    }, __jsx("input", {
-      type: "hidden",
-      name: "u",
-      value: "d3d3bb204705bc189b8f60f9e",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16
-      },
-      __self: this
-    }), __jsx("input", {
-      type: "hidden",
-      name: "id",
-      value: "da4a6bf8e6",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 17
-      },
-      __self: this
-    }), __jsx("label", {
-      htmlFor: "mce-FULLNAME",
-      className: "font-weight-light",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 19
-      },
-      __self: this
-    }, __jsx("i", {
-      class: "material-icons mr-2 align-middle",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 20
-      },
-      __self: this
-    }, "account_box"), "Full name", __jsx("input", {
-      type: "text",
-      name: "FULLNAME",
-      id: "mce-FULLNAME",
-      className: "form-control justify-content-center",
-      value: this.state.fNameValue,
-      onChange: e => {
-        this.setState({
-          fNameValue: e.target.value
-        });
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22
-      },
-      __self: this
-    })), __jsx("label", {
-      htmlFor: "mce-EMAIL",
-      className: "font-weight-light",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 32
-      },
-      __self: this
-    }, __jsx("i", {
-      class: "material-icons mr-2 align-middle",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 33
-      },
-      __self: this
-    }, "email"), "Email", __jsx("input", {
-      type: "email",
-      name: "EMAIL",
-      id: "mce-EMAIL",
-      className: "form-control",
-      value: this.state.emailValue,
-      onChange: e => {
-        this.setState({
-          emailValue: e.target.value
-        });
-      },
-      autoCapitalize: "off",
-      autoCorrect: "off",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35
-      },
-      __self: this
-    })), __jsx("label", {
-      htmlFor: "mce-PROJECT",
-      className: "font-weight-light",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 47
-      },
-      __self: this
-    }, __jsx("i", {
-      class: "material-icons mr-2 align-middle",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 48
-      },
-      __self: this
-    }, "business"), "Project name", __jsx("input", {
-      type: "text",
-      name: "PROJECT",
-      id: "mce-PROJECT",
-      className: "form-control",
-      value: this.state.pNameValue,
-      onChange: e => {
-        this.setState({
-          pNameValue: e.target.value
-        });
-      },
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 50
-      },
-      __self: this
-    }), __jsx("br", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 58
-      },
-      __self: this
-    })), __jsx("input", {
-      type: "submit",
-      value: "Stay Updated",
-      name: "subscribe",
-      id: "mc-embedded-subscribe",
-      className: "button btn btn-danger",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 60
-      },
-      __self: this
-    }), __jsx("div", {
-      style: {
-        position: 'absolute',
-        left: '-5000px'
-      },
-      "aria-hidden": "true",
-      "aria-label": "Please leave the following three fields empty",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 62
-      },
-      __self: this
-    }, __jsx("label", {
-      htmlFor: "b_name",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 63
-      },
-      __self: this
-    }, "Name: "), __jsx("input", {
-      type: "text",
-      name: "b_d3d3bb204705bc189b8f60f9e_da4a6bf8e6",
-      tabIndex: "-1",
-      value: "",
-      placeholder: "Sam",
-      id: "b_name",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 64
-      },
-      __self: this
-    }), __jsx("label", {
-      htmlFor: "b_email",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 66
-      },
-      __self: this
-    }, "Email: "), __jsx("input", {
-      type: "email",
-      name: "b_email",
-      tabIndex: "-1",
-      value: "",
-      placeholder: "youremail@gmail.com",
-      id: "b_email",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 67
-      },
-      __self: this
-    }), __jsx("label", {
-      htmlFor: "b_comment",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 69
-      },
-      __self: this
-    }, "Comment: "), __jsx("textarea", {
-      name: "b_comment",
-      tabIndex: "-1",
-      placeholder: "Please comment",
-      id: "b_comment",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 70
-      },
-      __self: this
-    }))));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Form);
 
 /***/ }),
 
@@ -2462,10 +2207,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/pin.js":
+/*!**********************!*\
+  !*** ./pages/pin.js ***!
+  \**********************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2474,90 +2219,77 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
-/* harmony import */ var _components_Form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Form */ "./components/Form.js");
-var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\Samuel Suh\\Desktop\\ipxs-site\\pages\\pin.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-
-const Index = () => __jsx("div", {
-  style: {
-    backgroundImage: "url(" + "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80" + ")",
-    height: '100%'
+const Pin = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
   },
+  __self: undefined
+}, __jsx("section", {
+  className: "my-5",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
-}, __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+}, __jsx("h1", {
+  className: "h1-responsive font-weight-bold text-center my-5",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
-}, __jsx("div", {
-  className: "justify-content-center",
+}, "IPXS Pinning Service Extends IPFS"), __jsx("h2", {
+  className: "grey-text text-center mx-auto mb-5",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
   },
   __self: undefined
-}, __jsx("div", {
-  className: "row py-2 px-4",
+}, " Scalable, Available and Fast!"), __jsx("div", {
+  className: "row",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 8
   },
   __self: undefined
 }, __jsx("div", {
-  className: "col-md-7 col-lg-8 text-center py-5 bg-transparent text-light",
+  className: "col-lg-5 text-center text-lg-left",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
   },
   __self: undefined
-}, __jsx("div", {
+}, __jsx("img", {
+  className: "img-fluid",
+  src: "https://mdbootstrap.com/img/Photos/Others/screens-section.jpg",
+  alt: "mockup image",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
   },
   __self: undefined
-}, __jsx("h2", {
-  className: "card-fluid card-title h1-responsive py-3 mb-5 font-bold",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, __jsx("strong", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, "IPXS is Filecoin on Ethereum")), __jsx("h4", {
-  className: "mx-5 mb-3",
+})), __jsx("div", {
+  className: "col-lg-7",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
-}, "Upgraded IPFS with:"), __jsx("p", {
+}, __jsx("div", {
+  className: "row mb-3",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
-}, __jsx("i", {
-  className: "material-icons mr-2 align-bottom",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 13
-  },
-  __self: undefined
-}, "check"), "Permissioned Files"), __jsx("p", {
+}, __jsx("div", {
+  className: "col-1",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14
@@ -2567,81 +2299,576 @@ const Index = () => __jsx("div", {
   className: "material-icons mr-2 align-bottom",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 15
   },
   __self: undefined
-}, "check"), "Improved Speed"), __jsx("p", {
+}, "check")), __jsx("div", {
+  className: "col-xl-10 col-md-11 col-10",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 17
+  },
+  __self: undefined
+}, __jsx("h5", {
+  className: "font-weight-bold mb-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, "File Availability"), __jsx("p", {
+  className: "grey-text",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, "99.999%"), " File Uptime for Production-grade applications."))), __jsx("div", {
+  className: "row mb-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-1",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
   },
   __self: undefined
 }, __jsx("i", {
   className: "material-icons mr-2 align-bottom",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 24
   },
   __self: undefined
-}, "check"), "Improved Availability"), __jsx("p", {
-  className: "mb-5",
+}, "check")), __jsx("div", {
+  className: "col-xl-10 col-md-11 col-10",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 26
+  },
+  __self: undefined
+}, __jsx("h5", {
+  className: "font-weight-bold mb-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, "Eliminate Server Upkeep"), __jsx("p", {
+  className: "grey-text",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, "Utilize your resources better by redirecting developer hours away from maintaining storage infrastructure; ", __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, "no required maintenance.")))), __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-1",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32
   },
   __self: undefined
 }, __jsx("i", {
   className: "material-icons mr-2 align-bottom",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 33
   },
   __self: undefined
-}, "check"), " ERC20 Token Incentives"), __jsx("a", {
-  className: "btn btn-outline-dark btn-md btn-info text-light",
-  href: "../static/whitepaperTest.pdf",
+}, "check")), __jsx("div", {
+  className: "col-xl-10 col-md-11 col-10",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 35
   },
   __self: undefined
-}, __jsx("i", {
-  className: "fas fa-clone left",
+}, __jsx("h5", {
+  className: "font-weight-bold mb-3",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17
+    lineNumber: 36
   },
   __self: undefined
-}), " Read Whitepaper"))), __jsx("div", {
-  className: "col-md-5 col-lg-4 card-fluid card bg-light my-2",
+}, "Speed"), __jsx("p", {
+  className: "grey-text",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, "Data-heavy applications benefit from ", __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, "40ms response time"), ".")))))), __jsx("section", {
+  className: "text-center my-5",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43
+  },
+  __self: undefined
+}, __jsx("h2", {
+  className: "h1-responsive font-weight-bold text-center my-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44
+  },
+  __self: undefined
+}, "Pin Price Plans"), __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-lg-4 col-md-12 mb-lg-0 mb-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 46
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "pricing-card card",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 47
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "card-body",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 48
+  },
+  __self: undefined
+}, __jsx("h5", {
+  className: "font-weight-bold mt-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 49
+  },
+  __self: undefined
+}, "Free Tier"), __jsx("div", {
+  className: "price pt-0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 50
+  },
+  __self: undefined
+}, __jsx("h2", {
+  className: "number mb-2",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 51
+  },
+  __self: undefined
+}, "$0")), __jsx("ul", {
+  className: "mb-1",
   style: {
-    opacity: .9
+    listStyleType: "none"
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 53
   },
   __self: undefined
-}, __jsx(_components_Form__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, __jsx("li", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 54
   },
   __self: undefined
-}))))));
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 55
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 55
+  },
+  __self: undefined
+}, "1"), " project")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 57
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 58
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 58
+  },
+  __self: undefined
+}, "100"), " components")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 60
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 61
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 61
+  },
+  __self: undefined
+}, "150"), " features")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 63
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 64
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 64
+  },
+  __self: undefined
+}, "200"), " members"))), __jsx("button", {
+  type: "button",
+  className: "btn btn-primary text-light btn-rounded mb-4",
+  "data-toggle": "modal",
+  "data-target": "#myModal",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 67
+  },
+  __self: undefined
+}, "Join Beta Waitlist")))), __jsx("div", {
+  className: "col-lg-4 col-md-6 mb-md-0 mb-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 71
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "card card-image",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 72
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "pricing-card card",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 73
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "card-body",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 74
+  },
+  __self: undefined
+}, __jsx("h5", {
+  className: "font-weight-bold mt-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 75
+  },
+  __self: undefined
+}, "Pro"), __jsx("div", {
+  className: "price pt-0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 76
+  },
+  __self: undefined
+}, __jsx("h2", {
+  className: "number mb-2",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 77
+  },
+  __self: undefined
+}, "$0.05")), __jsx("ul", {
+  className: "mb-1",
+  style: {
+    listStyleType: "none"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 79
+  },
+  __self: undefined
+}, __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 80
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 81
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 81
+  },
+  __self: undefined
+}, "1"), " projects")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 83
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 84
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 84
+  },
+  __self: undefined
+}, "200"), " components")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 86
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 87
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 87
+  },
+  __self: undefined
+}, "200"), " features")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 89
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 90
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 90
+  },
+  __self: undefined
+}, "300"), " members"))), __jsx("button", {
+  type: "button",
+  className: "btn btn-info btn-rounded text-light mb-4",
+  "data-toggle": "modal",
+  "data-target": "#myModal",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 93
+  },
+  __self: undefined
+}, "Advanced Notice"))))), __jsx("div", {
+  className: "col-lg-4 col-md-6",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 99
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "pricing-card card",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 100
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "card-body",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 101
+  },
+  __self: undefined
+}, __jsx("h5", {
+  className: "font-weight-bold mt-3",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 102
+  },
+  __self: undefined
+}, "Enterprise"), __jsx("div", {
+  className: "price pt-0",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 103
+  },
+  __self: undefined
+}, __jsx("h2", {
+  className: "number red-text mb-2",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 104
+  },
+  __self: undefined
+}, "30")), __jsx("ul", {
+  className: "mb-1",
+  style: {
+    listStyleType: "none"
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 106
+  },
+  __self: undefined
+}, __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 107
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 108
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 108
+  },
+  __self: undefined
+}, "5"), " projects")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 110
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 111
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 111
+  },
+  __self: undefined
+}, "300"), " components")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 113
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 114
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 114
+  },
+  __self: undefined
+}, "350"), " features")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 116
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 117
+  },
+  __self: undefined
+}, __jsx("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 117
+  },
+  __self: undefined
+}, "400"), " members"))), __jsx("button", {
+  type: "button",
+  className: "btn btn-success btn-rounded text-light mb-4",
+  "data-toggle": "modal",
+  "data-target": "#myModal",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 120
+  },
+  __self: undefined
+}, "Contact Us")))))));
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+/* harmony default export */ __webpack_exports__["default"] = (Pin);
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 4:
+/*!****************************!*\
+  !*** multi ./pages/pin.js ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Samuel Suh\Desktop\ipxs-site\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\Samuel Suh\Desktop\ipxs-site\pages\pin.js */"./pages/pin.js");
 
 
 /***/ }),
@@ -2790,4 +3017,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=pin.js.map
