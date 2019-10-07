@@ -10,9 +10,9 @@ class Form extends React.Component {
     
     render() {
         return (
-            <div className="card-body ">
+            <div className="card-body" className="text-center">
                 <p className="h4 text-center py-4 ">Stay Updated</p>
-                <form action="https://gmail.us20.list-manage.com/subscribe/post" method="POST" className="px-5">
+                <form action="https://gmail.us20.list-manage.com/subscribe/post" method="POST">
                     <input type="hidden" name="u" value="d3d3bb204705bc189b8f60f9e"/>
                 <input type="hidden" name="id" value="da4a6bf8e6"/>
                 
@@ -23,12 +23,12 @@ class Form extends React.Component {
                         type="text" 
                         name="FULLNAME" 
                         id="mce-FULLNAME" 
-                        className="form-control "
+                        className="form-control"
                         value={this.state.fNameValue} 
                         onChange={(e)=>{this.setState({fNameValue: e.target.value});}}
                     />
                 </label>
-
+<br/>
                 <label htmlFor='mce-PROJECT' className="font-weight-light"> 
                 <i class="material-icons mr-2 align-middle">business</i>
                     Project name
@@ -41,7 +41,7 @@ class Form extends React.Component {
                         onChange={(e)=>{this.setState({pNameValue: e.target.value});}}
                     />
                 </label>
-
+<br/>
                 <label htmlFor='mce-EMAIL' className="font-weight-light">
                 <i class="material-icons mr-2 align-middle">email</i>
                     Email *
@@ -55,8 +55,8 @@ class Form extends React.Component {
                         autoCapitalize="off" 
                         autoCorrect="off"
                         /> 
-                </label>
-                    <input type="submit" value="Stay Updated" name="subscribe" id="mc-embedded-subscribe" className="button btn btn-danger px-5"/>
+                </label><br/><br/>
+                    <input type="submit" value="Stay Updated" name="subscribe" id="mc-embedded-subscribe" className="button btn btn-danger mx-auto"/>
 
                 <div style={{position: 'absolute', left: '-5000px'}} aria-hidden='true' aria-label="Please leave the following three fields empty">
                     <label htmlFor="b_name">Name: </label>

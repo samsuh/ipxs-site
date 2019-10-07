@@ -50,6 +50,7 @@ const Roadmap = () => (
 					<div className="flag-wrapper">
 						<span className="flag">Mainnet Launch</span>
 						<span className="time-wrapper"><span className="time">Q1 2020</span></span>
+						<div className="desc">Mainnet Live</div>
 					</div>
 				</div>
 			</li>
