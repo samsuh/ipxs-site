@@ -18,7 +18,7 @@ class Form extends React.Component {
                 
                 <label htmlFor='mce-FULLNAME' className="font-weight-light">
                     <i class="material-icons mr-2 align-middle">account_box</i>
-                    Full name *
+                    Full name
                     <input 
                         type="text" 
                         name="FULLNAME" 
@@ -29,24 +29,9 @@ class Form extends React.Component {
                     />
                 </label>
 
-                <label htmlFor='mce-EMAIL' className="font-weight-light">
-                <i class="material-icons mr-2 align-middle">email</i>
-                    Email *
-                    <input 
-                        type="email" 
-                        name="EMAIL" 
-                        id="mce-EMAIL"
-                        className="form-control"
-                        value={this.state.emailValue} 
-                        onChange={ (e)=>{this.setState({emailValue: e.target.value});} } 
-                        autoCapitalize="off" 
-                        autoCorrect="off"
-                        /> 
-                </label>
-
                 <label htmlFor='mce-PROJECT' className="font-weight-light"> 
                 <i class="material-icons mr-2 align-middle">business</i>
-                    Project name <small>(optional)</small>
+                    Project name
                     <input 
                         type="text" 
                         name="PROJECT" 
@@ -55,7 +40,21 @@ class Form extends React.Component {
                         value={this.state.pNameValue} 
                         onChange={(e)=>{this.setState({pNameValue: e.target.value});}}
                     />
-                <br/>
+                </label>
+
+                <label htmlFor='mce-EMAIL' className="font-weight-light">
+                <i class="material-icons mr-2 align-middle">email</i>
+                    Email *
+                    <input 
+                        type="email" 
+                        name="EMAIL" 
+                        id="mce-EMAIL"
+                        className="form-control required"
+                        value={this.state.emailValue} 
+                        onChange={ (e)=>{this.setState({emailValue: e.target.value});} } 
+                        autoCapitalize="off" 
+                        autoCorrect="off"
+                        /> 
                 </label>
                     <input type="submit" value="Stay Updated" name="subscribe" id="mc-embedded-subscribe" className="button btn btn-danger px-5"/>
 

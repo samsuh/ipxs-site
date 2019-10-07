@@ -16,7 +16,7 @@ const Pin = () => (
             </div>
             <div className="col-xl-10 col-md-11 col-10">
             <h5 className="font-weight-bold mb-3">File Availability</h5>
-            <p className="grey-text"><strong>99.999%</strong> File Uptime for Production-grade applications.</p>
+            <p className="grey-text"><strong>99.99%</strong> availability for Production-grade applications (over a given year).</p>
             </div>
         </div>
         <div className="row mb-3">
@@ -47,24 +47,22 @@ const Pin = () => (
             <div className="pricing-card card">
                 <div className="card-body">
                 <h5 className="font-weight-bold mt-3">Free Tier</h5>
-                <div className="price pt-0">
-                    <h2 className="number mb-2">$0</h2>
-                </div>
                 <ul className="mb-1" style={{ listStyleType: "none" }}>
+                <li><p><span style={{ fontSize: "32px" }}>$0</span></p></li>
+
                     <li>
                     <p><strong>1</strong> project</p>
                     </li>
                     <li>
-                    <p><strong>100</strong> components</p>
+                    <p><strong>3 GB</strong> storage</p>
                     </li>
                     <li>
-                    <p><strong>150</strong> features</p>
+                    <p><strong>15 GB</strong> bandwidth</p>
                     </li>
                     <li>
-                    <p><strong>200</strong> members</p>
                     </li>
                 </ul>
-                <button type="button" className="btn btn-primary text-light btn-rounded mb-4" data-toggle="modal" data-target="#myModal">Join Beta Waitlist</button>
+                <button type="button" className="btn btn-primary text-light btn-rounded mb-4 ml-4" data-toggle="modal" data-target="#myModal">Join Beta Waitlist</button>
                 </div>
             </div>
             </div>
@@ -73,24 +71,22 @@ const Pin = () => (
                     <div className="pricing-card card">
                         <div className="card-body">
                         <h5 className="font-weight-bold mt-3">Pro</h5>
-                        <div className="price pt-0">
-                            <h2 className="number mb-2">$0.05</h2>
-                        </div>
                         <ul className="mb-1" style={{ listStyleType: "none" }}>
+                            <li><p><span style={{ fontSize: "32px" }}>$0.06</span>/GB/month</p></li>
                             <li>
-                            <p><strong>1</strong> projects</p>
+                            <p><strong>5</strong> projects</p>
                             </li>
                             <li>
-                            <p><strong>200</strong> components</p>
+                            <p><strong>UNLIMITED</strong> storage</p>
                             </li>
                             <li>
-                            <p><strong>200</strong> features</p>
+                            <p><strong>200 GB</strong> bandwidth</p>
                             </li>
                             <li>
-                            <p><strong>300</strong> members</p>
+                            <p><strong>$0.04/GB</strong> bandwidth overage</p>
                             </li>
                         </ul>
-                        <button type="button" className="btn btn-info btn-rounded text-light mb-4" data-toggle="modal" data-target="#myModal">Advanced Notice</button>
+                        <button type="button" className="btn btn-info btn-rounded text-light mb-4 ml-4" data-toggle="modal" data-target="#myModal">Advanced Notice</button>
 
                         </div>
                     </div>
@@ -99,25 +95,22 @@ const Pin = () => (
             <div className="col-lg-4 col-md-6">
                 <div className="pricing-card card">
                     <div className="card-body">
-                    <h5 className="font-weight-bold mt-3">Enterprise</h5>
-                    <div className="price pt-0">
-                        <h2 className="number red-text mb-2">30</h2>
-                    </div>
+                    <h5 className="font-weight-bold mt-3">Custom</h5><br/>
                     <ul className="mb-1" style={{ listStyleType: "none" }}>
                         <li>
-                        <p><strong>5</strong> projects</p>
+                        <p>IPFS & storage consultation</p>
                         </li>
                         <li>
-                        <p><strong>300</strong> components</p>
+                        <p>Reduce storage costs</p>
                         </li>
                         <li>
-                        <p><strong>350</strong> features</p>
+                        <p>Improve Availability</p>
                         </li>
                         <li>
-                        <p><strong>400</strong> members</p>
+                        <p>IPFS Private Network implementation</p>
                         </li>
                     </ul>
-                    <button type="button" className="btn btn-success btn-rounded text-light mb-4" data-toggle="modal" data-target="#myModal">Contact Us</button>
+                    <button type="button" className="btn btn-success btn-rounded text-light mb-4 ml-4" data-toggle="modal" data-target="#myModal">Contact Us</button>
                     </div>
                 </div>
             </div>
