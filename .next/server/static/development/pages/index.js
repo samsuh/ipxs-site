@@ -167,14 +167,14 @@ class Form extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return __jsx("div", {
       className: "card-body",
-      className: "text-center",
+      className: "text-center pt-1 pb-3",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 13
       },
       __self: this
     }, __jsx("p", {
-      className: "h4 text-center py-4 ",
+      className: "h4 text-center py-3 ",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14
@@ -314,12 +314,6 @@ class Form extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       },
       __self: this
     })), __jsx("br", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 58
-      },
-      __self: this
-    }), __jsx("br", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 58
@@ -2454,7 +2448,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("h1", {
-  className: "card-fluid card-title h1-responsive py-1 my-2 font-bold text-center text-light",
+  className: "card-fluid card-title h1-responsive py-3 my-2 font-bold text-center text-light",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
@@ -2474,7 +2468,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("div", {
-  className: "col-md-7 col-lg-8 text-center py-5 bg-transparent text-light align-text-top",
+  className: "col-md-7 col-lg-8 text-center py-3 bg-transparent text-light align-text-top",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
@@ -2568,7 +2562,7 @@ const Index = () => __jsx("div", {
   },
   __self: undefined
 }), " Read Whitepaper"))), __jsx("div", {
-  className: "col-md-5 col-lg-4 card-fluid card bg-light mt-5 mb-2 pb-2",
+  className: "col-md-5 col-lg-4 card-fluid card bg-light mt-2 mb-2 pb-2",
   style: {
     opacity: .9
   },

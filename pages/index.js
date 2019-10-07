@@ -6,10 +6,10 @@ const Index = () => (
     <Layout>
     <div className="justify-content-center">
         <div className="row py-2 px-4 justify-content-center">
-        <h1 className="card-fluid card-title h1-responsive py-1 my-2 font-bold text-center text-light"><strong>IPXS is Filecoin on Ethereum</strong></h1>
+        <h1 className="card-fluid card-title h1-responsive py-3 my-2 font-bold text-center text-light"><strong>IPXS is Filecoin on Ethereum</strong></h1>
 </div>
 <div className="row py-2 px-4">
-            <div className="col-md-7 col-lg-8 text-center py-5 bg-transparent text-light align-text-top">
+            <div className="col-md-7 col-lg-8 text-center py-3 bg-transparent text-light align-text-top">
                 <div>
                     <h2 className="card-fluid card-title h1-responsive pb-3 mb-2 font-bold"><strong>Upgraded IPFS with:</strong></h2>
                     <p><i className="material-icons mr-2 align-bottom">check</i>Permissioned Files</p>
@@ -19,7 +19,7 @@ const Index = () => (
                     <a className="btn btn-outline-dark btn-md btn-info text-light" href="../static/IPXS_WP_v0_1.pdf"><i className="fas fa-clone left"></i> Read Whitepaper</a>
                 </div>
             </div>
-            <div className="col-md-5 col-lg-4 card-fluid card bg-light mt-5 mb-2 pb-2" style={{opacity:.9}}>
+            <div className="col-md-5 col-lg-4 card-fluid card bg-light mt-2 mb-2 pb-2" style={{opacity:.9}}>
                 <Form/>
             </div>
         </div>

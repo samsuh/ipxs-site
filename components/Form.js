@@ -10,8 +10,8 @@ class Form extends React.Component {
     
     render() {
         return (
-            <div className="card-body" className="text-center">
-                <p className="h4 text-center py-4 ">Stay Updated</p>
+            <div className="card-body" className="text-center pt-1 pb-3">
+                <p className="h4 text-center py-3 ">Stay Updated</p>
                 <form action="https://gmail.us20.list-manage.com/subscribe/post" method="POST">
                     <input type="hidden" name="u" value="d3d3bb204705bc189b8f60f9e"/>
                 <input type="hidden" name="id" value="da4a6bf8e6"/>
@@ -55,7 +55,7 @@ class Form extends React.Component {
                         autoCapitalize="off" 
                         autoCorrect="off"
                         /> 
-                </label><br/><br/>
+                </label><br/>
                     <input type="submit" value="Stay Updated" name="subscribe" id="mc-embedded-subscribe" className="button btn btn-danger mx-auto"/>
 
                 <div style={{position: 'absolute', left: '-5000px'}} aria-hidden='true' aria-label="Please leave the following three fields empty">
