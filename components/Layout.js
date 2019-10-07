@@ -18,18 +18,18 @@ const Layout = (props) => (
             {props.children}
         </div>
         <div className="modal fade" id="myModal" role="dialog">
-        <div className="modal-dialog  modal-dialog-centered " role="document">
-            <div className="modal-content" style={{
-backgroundImage: "url("+"https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80"+ ")"}}>
-                <button type="button" className="close text-light text-right px-4 py-2" data-dismiss="modal">
-                    <span>&times;</span>
-                </button>
-                <div className="modal-body text-light">
-                    <Form />
+            <div className="modal-dialog  modal-dialog-centered " role="document">
+                <div className="modal-content" style={{
+    backgroundImage: "url("+"https://images.unsplash.com/photo-1456428746267-a1756408f782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2700&q=80"+ ")"}}>
+                    <button type="button" className="close text-light text-right px-4 py-2" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                    <div className="modal-body text-light">
+                        <Form />
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
         <Footer/>  
     </div>
 );

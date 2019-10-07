@@ -19,7 +19,7 @@ const Navbar = () => (
                 <a className="nav-link" href="/roadmap">Roadmap</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="../static/whitepaperTest.pdf">Whitepaper</a>
+                <a className="nav-link" href="../static/IPXS_WP_v0_1.pdf">Whitepaper</a>
             </li>
             </ul>
         </div>

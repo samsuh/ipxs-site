@@ -14,7 +14,7 @@ const Index = () => (
                     <p><i className="material-icons mr-2 align-bottom">check</i>Improved Speed</p>
                     <p><i className="material-icons mr-2 align-bottom">check</i>Improved Availability</p>
                     <p className="mb-5"><i className="material-icons mr-2 align-bottom">check</i> ERC20 Token Incentives</p>
-                    <a className="btn btn-outline-dark btn-md btn-info text-light" href="../static/whitepaperTest.pdf"><i className="fas fa-clone left"></i> Read Whitepaper</a>
+                    <a className="btn btn-outline-dark btn-md btn-info text-light" href="../static/IPXS_WP_v0_1.pdf"><i className="fas fa-clone left"></i> Read Whitepaper</a>
                 </div>
             </div>
             <div className="col-md-5 col-lg-4 card-fluid card bg-light my-2" style={{opacity:.9}}>
