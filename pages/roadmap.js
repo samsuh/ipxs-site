@@ -22,36 +22,35 @@ const Roadmap = () => (
 				<div className="direction-l">
 					<div className="flag-wrapper">
 						<span className="flag">Core Storage Built</span>
-						<span className="time-wrapper"><span className="time">Q1 2019</span></span>
+						<span className="time-wrapper"><span className="time">Q2 2019</span></span>
 					</div>
-					<div className="desc">Uploads and Downloads Working</div>
+					<div className="desc">Encoding Layer Working</div>
 				</div>
 			</li>
 			<li>
 				<div className="direction-r">
 					<div className="flag-wrapper bg-danger">
-						<span className="flag">Testnet Launch</span>
-						<span className="time-wrapper"><span className="time">Q4 2019</span></span>
+						<span className="flag">Alpha Network Launch</span>
+						<span className="time-wrapper"><span className="time">October 2019</span></span>
 					</div>
-					<div className="desc">Testnet Onboarding to Begin December 2019</div>
+					<div className="desc">Invite Only</div>
 				</div>
 			</li>
 			<li>
 				<div className="direction-l">
 					<div className="flag-wrapper">
-						<span className="flag">Mainnet Launch</span>
-						<span className="time-wrapper"><span className="time">Q1 2020</span></span>
+						<span className="flag">Beta Network Launch</span>
+						<span className="time-wrapper"><span className="time">Q4 2019</span></span>
 					</div>
-					<div className="desc">Mainnet Live.</div>
+					<div className="desc">Onboarding Starts December 2019</div>
 				</div>
 			</li>
 			<li>
 				<div className="direction-r">
 					<div className="flag-wrapper">
-						<span className="flag">Additional Featuresets</span>
-						<span className="time-wrapper"><span className="time">Q3 2020</span></span>
+						<span className="flag">Mainnet Launch</span>
+						<span className="time-wrapper"><span className="time">Q1 2020</span></span>
 					</div>
-					<div className="desc">Final Deliverables and Transition to Maintenance</div>
 				</div>
 			</li>
 		
